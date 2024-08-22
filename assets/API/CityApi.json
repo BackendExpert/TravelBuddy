@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "CountryID": 1,
+      "title": "Colombo",
+      "body": "This Capital of Sri Lanka"
+    },
+    {
+        "id": 2,
+        "CountryID": 1,
+        "title": "Kandy",
+        "body": "This Capital of Sri Lanka"
+    },
+    {
+        "id": 3,
+        "CountryID": 1,
+        "title": "Nuwara Eliya",
+        "body": "This Capital of Sri Lanka"
+    }
+]
+  
