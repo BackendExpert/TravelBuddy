@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, Image } from 'react-native'
 import * as Font from 'expo-font';
 import AppLoading from 'expo-app-loading';
 
-const HomePage = () => {
+const HomePage = ({ navigation }) => {
     const [fontsLoaded, setFontsLoaded] = React.useState(false);
 
     const loadFonts = async () => {
@@ -29,7 +29,7 @@ const HomePage = () => {
 
             
         </Image>
-        <Text className='mt-[-70%] text-2xl font-semibold bg-white px-8 py-2 rounded-full text-blue-600' style={{ fontFamily: 'Matemasie'}}>
+        <Text onPress={() => navigation.navigate('Dashboard')} className='mt-[-70%] text-2xl font-semibold bg-white px-8 py-2 rounded-full text-blue-600' style={{ fontFamily: 'Matemasie'}}>
             Get Started
         </Text>
 
