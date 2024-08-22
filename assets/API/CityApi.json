@@ -1,9 +1,9 @@
 [
     {
-      "id": 1,
-      "CountryID": 1,
-      "title": "Colombo",
-      "body": "This Capital of Sri Lanka"
+        "id": 1,
+        "CountryID": 1,
+        "title": "Colombo",
+        "body": "This Capital of Sri Lanka"
     },
     {
         "id": 2,
