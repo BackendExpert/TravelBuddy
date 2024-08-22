@@ -1,7 +1,21 @@
 import React from 'react'
 import { View, Text, StyleSheet, Image } from 'react-native'
+import * as Font from 'expo-font';
+import AppLoading from 'expo-app-loading';
 
 const HomePage = () => {
+    const [fontsLoaded, setFontsLoaded] = React.useState(false);
+
+    const loadFonts = async () => {
+      await Font.loadAsync({
+        'Matemasie': require('../assets/Fonts/Matemasie-Regular.ttf'), // Adjust the path
+      });
+      setFontsLoaded(true);
+    };
+  
+    if (!fontsLoaded) {
+      return <AppLoading startAsync={loadFonts} onFinish={() => setFontsLoaded(true)} onError={console.warn} />;
+    }
   return (
     <View style={styles.container}>
         <Image
@@ -15,12 +29,18 @@ const HomePage = () => {
 
             
         </Image>
-        <Text className='mt-[-70%] text-2xl font-semibold bg-white px-8 py-2 rounded-full text-blue-600'>
+        <Text className='mt-[-70%] text-2xl font-semibold bg-white px-8 py-2 rounded-full text-blue-600' style={{ fontFamily: 'Matemasie'}}>
             Get Started
         </Text>
 
-        <Text className='mt-64 text-blue-500 font-semibold text-2xl'>
+        <Text className='mt-64 text-blue-500 font-semibold text-2xl' style={{ fontFamily: 'Matemasie'}}>
             Welcome to Travel Buddy
+        </Text>
+        <Text className='text-blue-600 font-semibold'>
+            The Travel Information App
+        </Text>
+        <Text className='text-xs mt-16'>
+            Developed bt JehanKandy
         </Text>
     </View>
   )
@@ -32,9 +52,9 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     text: {
-        color: '#000',
+        fontFamily: 'Matemasie', // Custom font
         fontSize: 20,
-    },
+      },
   });
 
 
