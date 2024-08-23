@@ -42,8 +42,7 @@ const Dashboard = ({ navigation }) => {
     { id: '2', NavigateTo: 'Dashboard', itemStyle: { color: 'blue'}, title: 'Sleep', Icon: require('../../assets/Bed.png')},
     { id: '3', NavigateTo: 'Dashboard', itemStyle: { color: 'red'}, title: 'Bus', Icon: require('../../assets/Bus.png')},
     { id: '4', NavigateTo: 'Dashboard', itemStyle: { color: 'green'}, title: 'Train', Icon: require('../../assets/Train.png')},
-    { id: '5', NavigateTo: 'Dashboard', itemStyle: { color: 'orange'}, title: 'Hit', Icon: require('../../assets/Star.png')},
-    { id: '6', NavigateTo: 'Search', itemStyle: { color: 'blue'}, title: 'Search', Icon: require('../../assets/Search.png')},
+    { id: '5', NavigateTo: 'Dashboard', itemStyle: { color: 'red'}, title: 'Important', Icon: require('../../assets/Important.png')},
 
     // Add more items as needed
   ];
@@ -51,11 +50,11 @@ const Dashboard = ({ navigation }) => {
   const renderItem = ({ item }) => (
 
 
-      <TouchableOpacity style={styles.item} className='bg-blue-800/5' onPress={() => navigation.navigate(item.NavigateTo)}>
-        <View >
+      <TouchableOpacity style={styles.mainItem} className='bg-blue-800/5' onPress={() => navigation.navigate(item.NavigateTo)}>
+        <View style={styles.item} >
           <Image
             source={item.Icon}
-            className='h-8 w-8'        
+            className='h-8 w-8'    
           >
           </Image>
           <Text style={item.itemStyle}>{item.title}</Text>
@@ -76,6 +75,7 @@ const Dashboard = ({ navigation }) => {
           />
         </TouchableOpacity>
         <Text 
+          className='text-center'
           style={{ 
             fontFamily: 'dancing',
             fontWeight: '600',
@@ -137,12 +137,15 @@ const styles = StyleSheet.create({
   grid: {
     padding: 10,
   },
-  item: {
+  mainItem: {
     flex: 1,
     margin: 5,
     borderRadius: 8,
     padding: 10,
-    alignItems: 'center',
+  },  
+  item: {
+    justifyContent: 'center', 
+    alignItems: 'center', 
   },
   itemText: {
     fontSize: 16,
