@@ -3,6 +3,8 @@
 - This is only for Android OS
 - Still Development
 
-<img src='assets\ScreenShorts\DashBoard.jpeg' style='height: 200px'>
-<img src='assets\ScreenShorts\DashBoard.jpeg' style='height: 200px'>
-<img src='assets\ScreenShorts\DashBoard.jpeg' style='height: 200px'>
+<div>
+    <img src='assets\ScreenShorts\DashBoard.jpeg' style='height: 200px'>
+    <img src='assets\ScreenShorts\DashBoard.jpeg' style='height: 200px'>
+    <img src='assets\ScreenShorts\DashBoard.jpeg' style='height: 200px'>
+</div>
