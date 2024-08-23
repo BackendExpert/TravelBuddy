@@ -5,7 +5,7 @@ const Ttips = () => {
   return (
     <View>
         <Text>
-            More Places in Sri Lanka
+            More Places in Sri Lanka dasd hasjdh jhasgdjhg ajhsgd jhagsjdh gajshd gjahsgdjh
         </Text>
     </View>
   )
