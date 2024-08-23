@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         matemasie: ['Matemasie', 'sans-serif'], // Add your custom font here
+        dancing: ['dancing'], // Add your custom font here
       },
     },
   },

@@ -12,6 +12,7 @@ const HomePage = ({ navigation }) => {
         const loadFonts = async () => {
             await Font.loadAsync({
                 'Matemasie': require('../assets/Fonts/Matemasie-Regular.ttf'), // Adjust the path
+                'dancing': require('../assets/Fonts/DancingScript-VariableFont_wght.ttf'), // Adjust the path
             });
             setFontsLoaded(true);
             SplashScreen.hideAsync(); // Hide the splash screen once the font is loaded
@@ -48,8 +49,8 @@ const HomePage = ({ navigation }) => {
             <Text className='text-white font-semibold'>
               100% True Information
             </Text>
-            <Text className='text-white font-semibold'>
-              
+            <Text className='bg-white mt-4 py-4 px-12 rounded-full font-semibold' onPress={() => navigation.navigate('Dashboard')}>
+              Let's Start
             </Text>
         </View>
     );
