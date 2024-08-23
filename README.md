@@ -3,4 +3,4 @@
 - This is only for Android OS
 - Still Development
 
-<img src='assets\ScreenShorts\DashBoard.jpeg' style='height: 20px'>
+<img src='assets\ScreenShorts\DashBoard.jpeg' style='height: 200px'>
