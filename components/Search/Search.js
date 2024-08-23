@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { View, Text, StyleSheet, Image, TouchableOpacity, TextInput } from 'react-native';
 
 const Search = ({ navigation }) => {
@@ -13,6 +13,16 @@ const Search = ({ navigation }) => {
           [name]: value,
         });
     };
+    
+    useEffect(() => {
+        // Replace 'https://api.example.com/countries' with your actual API URL
+        fetch('https://api.example.com/countries')
+          .then(response => response.json())
+          .then(json => setData(json))
+          .catch(error => {
+            console.error(error);
+          });
+    }, []);
 
     const headleSubmit = () => {
         console.log('Form Data:', SearchData);
