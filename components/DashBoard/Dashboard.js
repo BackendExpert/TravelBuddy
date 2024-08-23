@@ -121,6 +121,36 @@ const Dashboard = ({ navigation }) => {
           style={styles.image}
         />
       </View>
+      <View className='mt-[-115px]'>
+          <Text className='text-white text-center text-xl font-semibold'>
+              Nine Arch
+          </Text>
+          <Text className='text-center text-white'>
+              Kandy-Badulla Railway
+          </Text>
+      </View>
+
+      <View style={styles.imageContainer} className='mt-20'>
+        <Image
+          source={require('../../assets/Sigiriya.jpg')}
+          style={styles.image}
+        />
+      </View>
+      <View className='mt-[-115px]'>
+          <Text className='text-white text-center text-xl font-semibold'>
+              Sigiriya
+          </Text>
+          <Text className='text-center text-white'>
+              Dambulla
+          </Text>
+      </View>
+      <View className='mx-8 mt-24'>
+          <TouchableOpacity onPress={() => navigation.navigate('')}>
+            <Text className='text-white text-center font-semibold bg-blue-500 rounded-full py-4'>
+                View More
+            </Text>
+          </TouchableOpacity>
+      </View>
     </View>
   );
 };
