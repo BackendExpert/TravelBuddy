@@ -114,6 +114,13 @@ const Dashboard = ({ navigation }) => {
           />
           </View>
       </View>
+
+      <View style={styles.imageContainer}>
+        <Image
+          source={require('../../assets/9Arch.jpg')}
+          style={styles.image}
+        />
+      </View>
     </View>
   );
 };
@@ -149,6 +156,15 @@ const styles = StyleSheet.create({
   },
   itemText: {
     fontSize: 16,
+  },
+  imageContainer: {
+    marginHorizontal: 30, // Add margin to the container to ensure it’s applied
+  },
+  image: {
+    width: '100%',
+    height: 200,
+    borderRadius: 20,
+    resizeMode: 'cover',
   },
   
 });
