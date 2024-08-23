@@ -38,12 +38,12 @@ const Dashboard = ({ navigation }) => {
 
 
   const data = [
-    { id: '1', itemStyle: { color: 'orange'}, title: 'Food', Icon: require('../../assets/Food.png')},
-    { id: '2', itemStyle: { color: 'blue'}, title: 'Sleep', Icon: require('../../assets/Bed.png')},
-    { id: '3', itemStyle: { color: 'red'}, title: 'Bus', Icon: require('../../assets/Bus.png')},
-    { id: '4', itemStyle: { color: 'green'}, title: 'Train', Icon: require('../../assets/Train.png')},
-    { id: '5', itemStyle: { color: 'orange'}, title: 'Hit', Icon: require('../../assets/Star.png')},
-    { id: '6', itemStyle: { color: 'blue'}, title: 'Search', Icon: require('../../assets/Search.png')},
+    { id: '1', NavigateTo: 'Dashboard', itemStyle: { color: 'orange'}, title: 'Food', Icon: require('../../assets/Food.png')},
+    { id: '2', NavigateTo: 'Dashboard', itemStyle: { color: 'blue'}, title: 'Sleep', Icon: require('../../assets/Bed.png')},
+    { id: '3', NavigateTo: 'Dashboard', itemStyle: { color: 'red'}, title: 'Bus', Icon: require('../../assets/Bus.png')},
+    { id: '4', NavigateTo: 'Dashboard', itemStyle: { color: 'green'}, title: 'Train', Icon: require('../../assets/Train.png')},
+    { id: '5', NavigateTo: 'Dashboard', itemStyle: { color: 'orange'}, title: 'Hit', Icon: require('../../assets/Star.png')},
+    { id: '6', NavigateTo: 'Search', itemStyle: { color: 'blue'}, title: 'Search', Icon: require('../../assets/Search.png')},
 
     // Add more items as needed
   ];
@@ -51,7 +51,7 @@ const Dashboard = ({ navigation }) => {
   const renderItem = ({ item }) => (
 
 
-      <TouchableOpacity style={styles.item} className='bg-blue-800/5'>
+      <TouchableOpacity style={styles.item} className='bg-blue-800/5' onPress={() => navigation.navigate(item.NavigateTo)}>
         <View >
           <Image
             source={item.Icon}
