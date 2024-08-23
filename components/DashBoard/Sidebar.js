@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Animated } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Animated, Image } from 'react-native';
 
 const Sidebar = ({ isVisible, onClose }) => {
   const translateX = useRef(new Animated.Value(-250)).current; // Sidebar initially off-screen
@@ -13,10 +13,28 @@ const Sidebar = ({ isVisible, onClose }) => {
   }, [isVisible]);
 
   return (
-    <Animated.View style={[styles.sidebar, { transform: [{ translateX }] }]}>
-      <TouchableOpacity onPress={onClose} style={styles.closeButton}>
-        <Text style={styles.closeButtonText}>Close</Text>
-      </TouchableOpacity>
+    <Animated.View className='pt-10' style={[styles.sidebar, { transform: [{ translateX }] }]}>
+      <View style={styles.maincontainer}>
+        <Text 
+          style={{ 
+            fontFamily: 'dancing',
+            fontWeight: '600',
+            fontSize: 20,
+            transform: [{ rotate: '-8deg' }],
+            color: 'blue',
+          }}>
+          Travel Buddy
+        </Text>
+
+        <TouchableOpacity onPress={onClose}>
+          <Image 
+              source={require('../../assets/Close.png')} 
+              style={{ height: 32, width: 32 }} 
+              className=''
+          />
+        </TouchableOpacity>
+      </View> 
+
       <Text style={styles.sidebarText}>Sidebar Content</Text>
     </Animated.View>
   );
@@ -38,20 +56,15 @@ const styles = StyleSheet.create({
     padding: 20,
     zIndex: 100, // Ensure the sidebar appears above other components
   },
-  closeButton: {
-    padding: 10,
-    backgroundColor: '#ddd',
-    borderRadius: 5,
-    marginBottom: 10,
-  },
-  closeButtonText: {
-    fontSize: 16,
-    color: '#333',
-  },
   sidebarText: {
     fontSize: 18,
     color: '#333',
   },
+
+  maincontainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  }
 });
 
 export default Sidebar;
