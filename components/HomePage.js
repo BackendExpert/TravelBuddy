@@ -1,50 +1,59 @@
-import React from 'react'
-import { View, Text, StyleSheet, Image } from 'react-native'
+import React, { useEffect, useCallback } from 'react';
+import { View, Text, StyleSheet, Image } from 'react-native';
 import * as Font from 'expo-font';
-import AppLoading from 'expo-app-loading';
+import * as SplashScreen from 'expo-splash-screen';
+
+SplashScreen.preventAutoHideAsync(); // Keep the splash screen visible until the font is loaded
 
 const HomePage = ({ navigation }) => {
     const [fontsLoaded, setFontsLoaded] = React.useState(false);
 
-    const loadFonts = async () => {
-      await Font.loadAsync({
-        'Matemasie': require('../assets/Fonts/Matemasie-Regular.ttf'), // Adjust the path
-      });
-      setFontsLoaded(true);
-    };
-  
+    useEffect(() => {
+        const loadFonts = async () => {
+            await Font.loadAsync({
+                'Matemasie': require('../assets/Fonts/Matemasie-Regular.ttf'), // Adjust the path
+            });
+            setFontsLoaded(true);
+            SplashScreen.hideAsync(); // Hide the splash screen once the font is loaded
+        };
+
+        loadFonts();
+    }, []);
+
+    const onLayoutRootView = useCallback(async () => {
+        if (fontsLoaded) {
+            await SplashScreen.hideAsync(); // Ensure splash screen is hidden after fonts are loaded
+        }
+    }, [fontsLoaded]);
+
     if (!fontsLoaded) {
-      return <AppLoading startAsync={loadFonts} onFinish={() => setFontsLoaded(true)} onError={console.warn} />;
+        return null; // Keep the splash screen visible until fonts are loaded
     }
-  return (
-    <View style={styles.container}>
-        <Image
-            source={require('../assets/TravelImg.jpg')} 
-            className='h-[80vh] w-screen'
-            style={{
-                borderBottomLeftRadius: 50,
-                borderBottomRightRadius: 60
-            }}
-        >
 
-            
-        </Image>
-        <Text onPress={() => navigation.navigate('Dashboard')} className='mt-[-70%] text-2xl font-semibold bg-white px-8 py-2 rounded-full text-blue-600' style={{ fontFamily: 'Matemasie'}}>
-            Get Started
-        </Text>
-
-        <Text className='mt-64 text-blue-500 font-semibold text-2xl' style={{ fontFamily: 'Matemasie'}}>
-            Welcome to Travel Buddy
-        </Text>
-        <Text className='text-blue-600 font-semibold'>
-            The Travel Information App
-        </Text>
-        <Text className='text-xs mt-16'>
-            Developed bt JehanKandy
-        </Text>
-    </View>
-  )
-}
+    return (
+        <View style={styles.container} onLayout={onLayoutRootView}>
+            <Image
+                source={require('../assets/Beach.jpg')} 
+                className='h-full w-screen'
+            />
+            <Text className='mt-[-250px] font-semibold text-white text-xl'>
+              get ready for 
+            </Text>
+            <Text className='text-4xl text-white font-bold'>
+              New Episode 
+            </Text>
+            <Text className='text-white font-semibold'>
+              Start your New Trip with the Travel Buddy App
+            </Text>
+            <Text className='text-white font-semibold'>
+              100% True Information
+            </Text>
+            <Text className='text-white font-semibold'>
+              
+            </Text>
+        </View>
+    );
+};
 
 const styles = StyleSheet.create({
     container: {
@@ -54,8 +63,7 @@ const styles = StyleSheet.create({
     text: {
         fontFamily: 'Matemasie', // Custom font
         fontSize: 20,
-      },
-  });
+    },
+});
 
-
-export default HomePage
+export default HomePage;
