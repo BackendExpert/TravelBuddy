@@ -35,15 +35,15 @@ const AllTrips = ({ navigation }) => {
         },
         {
             id: 6,
-            name: "Pasikuda Beach",
+            name: "Jaffna",
             Locate: "Northern Sri Lanka",
-            bgImg: 'https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg'
+            bgImg: 'https://c1.wallpaperflare.com/preview/451/940/978/temple-hinduism-religion-architecture.jpg'
         },
         {
             id: 7,
-            name: "Pasikuda Beach",
-            Locate: "Northern Sri Lanka",
-            bgImg: 'https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg'
+            name: "Anuradhapura",
+            Locate: "North Central of Sri Lanka",
+            bgImg: 'https://c1.wallpaperflare.com/preview/645/468/30/sri-lanka-anuradhapura-temple-buddhism.jpg'
         },
     ]
 
