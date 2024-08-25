@@ -25,7 +25,7 @@ const AllTrips = ({ navigation }) => {
             id: 4,
             name: "Pasikuda Beach",
             Locate: "35 kilometers northwest of Batticaloa",
-            bgImg: 'https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg'
+            bgImg: 'https://c0.wallpaperflare.com/preview/152/775/759/sri-lanka-kalkudah-pasikuda-rd-sea.jpg'
         },
         {
             id: 5,
