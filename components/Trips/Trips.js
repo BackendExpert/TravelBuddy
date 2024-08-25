@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-const Ttips = () => {
+const Trips = ({ navigation}) => {
   return (
     <View>
         <Text>
@@ -11,4 +11,4 @@ const Ttips = () => {
   )
 }
 
-export default Ttips
+export default Trips
