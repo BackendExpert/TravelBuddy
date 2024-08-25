@@ -3,7 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import HomePage from './components/HomePage';
 import Dashboard from './components/DashBoard/Dashboard';
-import T
+import Trips from './components/Trips/Trips';
 
 const Stack = createStackNavigator();
 
@@ -13,7 +13,7 @@ export default function App() {
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomePage} options={{ headerShown: false}}/>
         <Stack.Screen name="Dashboard" component={Dashboard} options={{ headerShown: false}}/>  
-        <Stack.Screen name="Trips" component={TransitionPresets} options={{ headerShown: false}}/>  
+        <Stack.Screen name="Trips" component={Trips} options={{ headerShown: false}}/>  
       </Stack.Navigator>
     </NavigationContainer>
   );

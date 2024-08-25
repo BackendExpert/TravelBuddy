@@ -145,7 +145,7 @@ const Dashboard = ({ navigation }) => {
           </Text>
       </View>
       <View className='mx-8 mt-24'>
-          <TouchableOpacity onPress={() => navigation.navigate('')}>
+          <TouchableOpacity onPress={() => navigation.navigate('Trips')}>
             <Text className='text-white text-center font-semibold bg-blue-500 rounded-full py-4'>
                 View More
             </Text>
