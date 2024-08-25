@@ -132,7 +132,7 @@ const Dashboard = ({ navigation }) => {
         </View>
       </TouchableOpacity>
 
-      <TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate('Trips', {screenID: 1})}>
         <View style={styles.imageContainer} className='mt-20'>
           <Image
             source={require('../../assets/Sigiriya.jpg')}
@@ -149,7 +149,7 @@ const Dashboard = ({ navigation }) => {
         </View>
       </TouchableOpacity>
       <View className='mx-8 mt-24'>
-          <TouchableOpacity onPress={() => navigation.navigate('Trips')}>
+          <TouchableOpacity onPress={() => navigation.navigate('AllTrips')}>
             <Text className='text-white text-center font-semibold bg-blue-500 rounded-full py-4'>
                 View More
             </Text>
