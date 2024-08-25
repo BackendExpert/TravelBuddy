@@ -42,7 +42,7 @@ const Dashboard = ({ navigation }) => {
     { id: '2', NavigateTo: 'Dashboard', itemStyle: { color: 'blue'}, title: 'Sleep', Icon: require('../../assets/Bed.png')},
     { id: '3', NavigateTo: 'Dashboard', itemStyle: { color: 'red'}, title: 'Bus', Icon: require('../../assets/Bus.png')},
     { id: '4', NavigateTo: 'Dashboard', itemStyle: { color: 'green'}, title: 'Train', Icon: require('../../assets/Train.png')},
-    { id: '5', NavigateTo: 'Dashboard', itemStyle: { color: 'red'}, title: 'Important', Icon: require('../../assets/Important.png')},
+    { id: '5', NavigateTo: 'Important', itemStyle: { color: 'red'}, title: 'Important', Icon: require('../../assets/Important.png')},
 
     // Add more items as needed
   ];
@@ -115,35 +115,39 @@ const Dashboard = ({ navigation }) => {
           </View>
       </View>
 
-      <View style={styles.imageContainer}>
-        <Image
-          source={require('../../assets/9Arch.jpg')}
-          style={styles.image}
-        />
-      </View>
-      <View className='mt-[-115px]'>
-          <Text className='text-white text-center text-xl font-semibold'>
-              Nine Arch
-          </Text>
-          <Text className='text-center text-white'>
-              Kandy-Badulla Railway
-          </Text>
-      </View>
+      <TouchableOpacity>
+        <View style={styles.imageContainer}>
+          <Image
+            source={require('../../assets/9Arch.jpg')}
+            style={styles.image}
+          />
+        </View>
+        <View className='mt-[-115px]'>
+            <Text className='text-white text-center text-xl font-semibold'>
+                Nine Arch
+            </Text>
+            <Text className='text-center text-white'>
+                Kandy-Badulla Railway
+            </Text>
+        </View>
+      </TouchableOpacity>
 
-      <View style={styles.imageContainer} className='mt-20'>
-        <Image
-          source={require('../../assets/Sigiriya.jpg')}
-          style={styles.image}
-        />
-      </View>
-      <View className='mt-[-115px]'>
-          <Text className='text-white text-center text-xl font-semibold'>
-              Sigiriya
-          </Text>
-          <Text className='text-center text-white'>
-              Dambulla
-          </Text>
-      </View>
+      <TouchableOpacity>
+        <View style={styles.imageContainer} className='mt-20'>
+          <Image
+            source={require('../../assets/Sigiriya.jpg')}
+            style={styles.image}
+          />
+        </View>
+        <View className='mt-[-115px]'>
+            <Text className='text-white text-center text-xl font-semibold'>
+                Sigiriya
+            </Text>
+            <Text className='text-center text-white'>
+                Dambulla
+            </Text>
+        </View>
+      </TouchableOpacity>
       <View className='mx-8 mt-24'>
           <TouchableOpacity onPress={() => navigation.navigate('Trips')}>
             <Text className='text-white text-center font-semibold bg-blue-500 rounded-full py-4'>
