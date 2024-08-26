@@ -61,16 +61,9 @@ const AllTrips = ({ navigation }) => {
                 </Text>
             </View>
 
-            <View style={{ marginBottom: 16 }}>
-                <Text>
-                    Following are the Most Tourist Visited Places in Sri Lanka
-                </Text>
-                <Text style={styles.warningText}>
-                    If you are new to Sri Lanka, please go to the Dashboard - Important
-                </Text>
-            </View>
 
-            <ScrollView className='mb-40' showsVerticalScrollIndicator={false}>
+
+            <ScrollView className='mb-20' showsVerticalScrollIndicator={false}>
                 {DataPlaces.map((place) => (
                     <TouchableOpacity key={place.id}>
                         <View style={styles.imageContainer}>
