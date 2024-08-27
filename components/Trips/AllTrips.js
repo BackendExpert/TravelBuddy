@@ -1,51 +1,21 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, Image, ScrollView } from 'react-native'
+import '../../assets/API/AllData.json'
+
 
 const AllTrips = ({ navigation }) => {
-    const DataPlaces = [
-        {
-            id: 1,
-            name: "Kandy",
-            Locate: "Center of Sri Lanka",
-            bgImg: 'https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg'
-        },
-        {
-            id: 2,
-            name: "Nuwara Eliya",
-            Locate: "Little England",
-            bgImg: 'https://c0.wallpaperflare.com/preview/309/300/52/nuwara-eliya-sri-lanka-green-mountain.jpg'
-        },
-        {
-            id: 3,
-            name: "Ella",
-            Locate: "on Kandy-Badulla Railway",
-            bgImg: 'https://c0.wallpaperflare.com/preview/665/67/799/ella-kandy-sri-lanka-asia.jpg'
-        },
-        {
-            id: 4,
-            name: "Pasikuda Beach",
-            Locate: "35 kilometers northwest of Batticaloa",
-            bgImg: 'https://c0.wallpaperflare.com/preview/152/775/759/sri-lanka-kalkudah-pasikuda-rd-sea.jpg'
-        },
-        {
-            id: 5,
-            name: "Arugam Bay Beach",
-            Locate: "Ampara",
-            bgImg: 'https://c4.wallpaperflare.com/wallpaper/635/462/366/sri-lanka-nature-beach-waves-wallpaper-preview.jpg'
-        },
-        {
-            id: 6,
-            name: "Jaffna",
-            Locate: "Northern Sri Lanka",
-            bgImg: 'https://c1.wallpaperflare.com/preview/451/940/978/temple-hinduism-religion-architecture.jpg'
-        },
-        {
-            id: 7,
-            name: "Anuradhapura",
-            Locate: "North Central of Sri Lanka",
-            bgImg: 'https://c1.wallpaperflare.com/preview/645/468/30/sri-lanka-anuradhapura-temple-buddhism.jpg'
-        },
-    ]
+    const [locations, setLocations] = useState([]);
+
+    useEffect(() => {
+      // Fetch data from the API
+    //   fetch('../../assets/API/AllData.json') // Replace with your API URL
+    //     .then((response) => response.json())
+    //     .then((data) => setLocations(data))
+    //     .catch((error) => console.error('Error fetching data:', error));
+
+        const data = require('../../assets/API/AllData.json');
+        setLocations(data);
+    }, []);
 
     return (
         <View style={{ marginTop: 40, marginHorizontal: 16 }}>
@@ -64,8 +34,8 @@ const AllTrips = ({ navigation }) => {
 
 
             <ScrollView className='mb-20' showsVerticalScrollIndicator={false}>
-                {DataPlaces.map((place) => (
-                    <TouchableOpacity key={place.id} onPress={() => navigation.navigate('Trips', {screenID: place.id} )}>
+                {locations.map((place) => (
+                    <TouchableOpacity key={place.id} onPress={() => navigation.navigate('OneTrip', {screenID: place.id} )}>
                         <View style={styles.imageContainer}>
                             <Image
                                 source={{ uri: place.bgImg }}
