@@ -59,7 +59,7 @@ const AllTrips = ({ navigation }) => {
                 <Text style={styles.headerText}>
                     All Destinations 
                 </Text>
-            </View>
+            </View> 
 
 
 
