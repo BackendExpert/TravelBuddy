@@ -29,6 +29,16 @@ const OneTrip = ({ navigation, route }) => {
                 {LocationOne.name}
             </Text>
         </View> 
+
+        <View style={styles.imageContainer}>
+            <Image
+                source={{ uri: LocationOne.bgImg }}
+                style={styles.image}
+            />
+        </View>
+        <Text>
+            {LocationOne.MainInfo}
+        </Text>
     </View>
   )
 }
@@ -49,6 +59,17 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: '600',
         color: '#1E40AF', // Tailwind's blue-500
+    },
+    imageContainer: {
+        marginBottom: 16,
+        borderRadius: 20,
+        overflow: 'hidden', // Ensures rounded corners
+        position: 'relative',
+    },
+    image: {
+        width: '100%',
+        height: 200,
+        resizeMode: 'cover',
     },
 
 });
