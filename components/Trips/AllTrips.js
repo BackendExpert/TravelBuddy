@@ -65,7 +65,7 @@ const AllTrips = ({ navigation }) => {
 
             <ScrollView className='mb-20' showsVerticalScrollIndicator={false}>
                 {DataPlaces.map((place) => (
-                    <TouchableOpacity key={place.id}>
+                    <TouchableOpacity key={place.id} onPress={() => navigation.navigate('Trips', {screenID: place.id} )}>
                         <View style={styles.imageContainer}>
                             <Image
                                 source={{ uri: place.bgImg }}

@@ -11,7 +11,7 @@ const Trips = ({ navigation, route }) => {
         More Places in Sri Lanka: {screenID}
       </Text>
 
-      <Text style={styles.backText} onPress={() => navigation.navigate('Dashboard')}>
+      <Text style={styles.backText} onPress={() => navigation.navigate('AllTrips')}>
         Back
       </Text>
     </View>
@@ -21,19 +21,8 @@ const Trips = ({ navigation, route }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
-  text: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    marginBottom: 20,
-  },
-  backText: {
-    fontSize: 16,
-    color: 'blue',
-    textDecorationLine: 'underline',
-  },
+
 });
 
 export default Trips;
