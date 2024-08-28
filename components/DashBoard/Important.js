@@ -1,5 +1,6 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { TouchableOpacity } from 'react-native'
+import { View, Text, StyleSheet, Image } from 'react-native'
 
 const Important = ({ navigation }) => {
   return (
@@ -8,6 +9,15 @@ const Important = ({ navigation }) => {
           <Text className='text-red-500 font-semibold text-xl'>
               Important Notice
           </Text>
+        </View>
+
+        <View>
+          <TouchableOpacity onPress={() => navigation.navigate('Dashboard')}>
+            <Image 
+                source={require('../../assets/Home.png')} 
+                style={{ height: 32, width: 32 }} 
+            />
+          </TouchableOpacity>
         </View>
 
         <View className='my-4'>
