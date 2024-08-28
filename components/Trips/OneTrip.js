@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, Image, FlatList } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity, Image, FlatList, Linking  } from 'react-native'
 
 const OneTrip = ({ navigation, route }) => {
     const [LocationOne, SetLocationOne] = useState([])
@@ -15,6 +15,15 @@ const OneTrip = ({ navigation, route }) => {
         // Set the found location to the state
         SetLocationOne(specificLocation);
     }, [])
+
+    const openGoogleMaps = (link) => {
+        // Open the link
+        if (link) {
+            Linking.openURL(link).catch(err => console.error('An error occurred', err));
+        } else {
+            console.log("No map link available");
+        }
+    };
 
     const renderHeader = () => (
         <View>
@@ -54,10 +63,22 @@ const OneTrip = ({ navigation, route }) => {
                         className=''
                     />
                 </View>
-                <View className='ml-2 mt-3'>
+                <View className='ml-2'>
                     <Text className='text-xl text-blue-500 font-semibold'>
                         {item.placeName}
                     </Text>
+                    <View style={styles.subheader}>
+                        <Text className='text-sm text-red-500 font-semibold'>
+                            {item.HowtoGo}
+                        </Text>
+                        <View style={styles.GoLocation} className='bg-blue-500 ml-2' onPress={() => openGoogleMaps(item.onMap)}>
+                            <Image 
+                                source={require('../../assets/Place.png')}
+                                style={styles.locationImg}
+                            />
+                        </View>
+                    </View>
+
                 </View>
             </View>
             <View>
@@ -116,6 +137,16 @@ const styles = StyleSheet.create({
     placeoneImg: {
         height: 28,
         width: 28
+    },
+    subheader: {
+        flexDirection: 'row',
+    },
+    GoLocation: {
+        flexDirection: 'row',
+    },
+    locationImg: {
+        height: 20,
+        width: 20,
     }
 
 });
