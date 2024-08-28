@@ -49,9 +49,7 @@ const OneTrip = ({ navigation, route }) => {
                 keyExtractor={(item) => item.placeID.toString()}
                 renderItem={({ item }) => (
                     <View style={styles.placeContainer}>
-                        <Text style={styles.placeName}>{item.placeName}</Text>
-                        <Text>Location: {item.locate}</Text>
-                        <Text>How to go: {item.HowtoGo}</Text>
+
                     </View>
                 )}
             />
