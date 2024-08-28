@@ -39,6 +39,10 @@ const OneTrip = ({ navigation, route }) => {
         <Text>
             {LocationOne.MainInfo}
         </Text>
+
+        <Text className='mt-4 font-semibold text-blue-500 text-xl'>
+            Major place to visit
+        </Text>
     </View>
   )
 }
