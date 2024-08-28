@@ -4,7 +4,21 @@
         "name": "Kandy",
         "Locate": "Center of Sri Lanka",
         "bgImg": "https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg",
-        "MainInfo": "Kandy is a major city in located in the Central Province of Sri Lanka."
+        "MainInfo": "Kandy is a major city in located in the Central Province of Sri Lanka.",
+        "places": [
+            {
+                "placeID": 1,
+                "placeName": "Temple of Tooth Rilic",
+                "locate:": "Kandy City",
+                "HowtoGo": "wolk"
+            },
+            {
+                "placeID": 2,
+                "placeName": "Temple of Tooth Rilic",
+                "locate:": "Kandy City",
+                "HowtoGo": "wolk"
+            }
+        ]
     },
     {
         "id": 2,

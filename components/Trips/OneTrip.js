@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity, Image, FlatList } from 'react-native'
 
 const OneTrip = ({ navigation, route }) => {
     const [LocationOne, SetLocationOne] = useState([])
@@ -43,6 +43,20 @@ const OneTrip = ({ navigation, route }) => {
         <Text className='mt-4 font-semibold text-blue-500 text-xl'>
             Major place to visit
         </Text>
+
+        <FlatList
+                data={LocationOne.places}
+                keyExtractor={(item) => item.placeID.toString()}
+                renderItem={({ item }) => (
+                    <View style={styles.placeContainer}>
+                        <Text style={styles.placeName}>{item.placeName}</Text>
+                        <Text>Location: {item.locate}</Text>
+                        <Text>How to go: {item.HowtoGo}</Text>
+                    </View>
+                )}
+            />
+
+
     </View>
   )
 }
