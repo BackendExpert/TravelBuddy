@@ -54,40 +54,41 @@ const OneTrip = ({ navigation, route }) => {
     );
 
     const renderPlaceItem = ({ item }) => (
-        <View>
-            <View style={styles.placeContainer} className='my-4'>
-                <View className='bg-blue-200 h-auto p-4 rounded-xl'>
-                    <Image 
-                        style={styles.placeoneImg}
-                        source={require('../../assets/Place.png')}
-                        className=''
-                    />
-                </View>
-                <View className='ml-2'>
-                    <Text className='text-xl text-blue-500 font-semibold'>
-                        {item.placeName}
-                    </Text>
-                    <View style={styles.subheader}>
-                        <Text className='text-sm text-red-500 font-semibold'>
-                            {item.HowtoGo}
+        <View className="my-2">
+            <View className="bg-white rounded-xl shadow-md">
+                <Image 
+                    source={{ uri: item.PlaceImage }}
+                    className='h-40'
+                    style={{
+                        borderTopRightRadius: 15, 
+                        borderTopLeftRadius: 15,
+                    }}
+                />
+                <View style={styles.itemDown} className='mx-2 pt-4 pb-2'>
+                    <View>
+                        <Text className='text-gray-500 font-semibold'>
+                            {item.placeName}
                         </Text>
-                        <View style={styles.GoLocation} className='bg-blue-500 ml-2' onPress={() => openGoogleMaps(item.onMap)}>
-                            <Image 
-                                source={require('../../assets/Place.png')}
-                                style={styles.locationImg}
-                            />
-                        </View>
+                        <Text className='text-blue-500 '>
+                            {item.TimeRec}
+                        </Text>
                     </View>
+                    <TouchableOpacity onPress={() => openGoogleMaps(item.onMap)}>
+                        <Image 
+                            source={require('../../assets/Search.png')} 
+                            style={{ height: 32, width: 32 }} 
+                        />
+                    </TouchableOpacity>
 
                 </View>
-            </View>
-            <View>
-                <Text>
-                    Locate: {item.locate}
-                </Text>
-                <Text>
-                    {item.HowtoGo}
-                </Text>
+                <View className='mx-2 mb-2'>
+                    <Text className='text-red-500 font-semibold'>
+                        Recommendation
+                    </Text>
+                    <Text>
+                        {item.Rocomend}
+                    </Text>
+                </View>
             </View>
         </View>
     );
@@ -131,24 +132,10 @@ const styles = StyleSheet.create({
         height: 200,
         resizeMode: 'cover',
     },
-    placeContainer: {
+    itemDown: {
         flexDirection: 'row',
-    },
-    placeoneImg: {
-        height: 28,
-        width: 28
-    },
-    subheader: {
-        flexDirection: 'row',
-    },
-    GoLocation: {
-        flexDirection: 'row',
-    },
-    locationImg: {
-        height: 20,
-        width: 20,
+        justifyContent: 'space-between',
     }
-
 });
 
 export default OneTrip;
