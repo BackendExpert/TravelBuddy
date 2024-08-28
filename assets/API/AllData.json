@@ -10,7 +10,8 @@
                 "placeID": 1,
                 "placeName": "Temple of tooth Relic",
                 "locate": "Kandy City",
-                "HowtoGo": "drive"
+                "HowtoGo": "drive",
+                "onMap": "https://www.google.com/maps/dir/Kandy+Railway+Station,+Main+Building,+William+Gopallawa+Mawatha,+Kandy/Maligawa+Bus+Stand,+DS+Senanayake+Veediya,+Kandy/@7.292126,80.6329009,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3ae36882893f0a53:0x96578f84bde6f1b7!2m2!1d80.6323582!2d7.2895636!1m5!1m1!1s0x3ae3662c0b6f6bfd:0x830dc9bfe5520ebd!2m2!1d80.6385935!2d7.2932845!3e2?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D"
             },
             {
                 "placeID": 2,
