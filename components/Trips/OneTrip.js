@@ -16,47 +16,70 @@ const OneTrip = ({ navigation, route }) => {
         SetLocationOne(specificLocation);
     }, [])
 
-  return (
-    <View className='mt-10 mx-6'>
-        <View style={styles.header} className='rounded-full'>
-            <TouchableOpacity onPress={() => navigation.navigate('AllTrips')}>
-                <Image 
-                    source={require('../../assets/Back.png')} 
-                    style={{ height: 32, width: 32 }} 
+    const renderHeader = () => (
+        <View>
+            <View style={styles.header} className='rounded-full mt-4'>
+                <TouchableOpacity onPress={() => navigation.navigate('AllTrips')}>
+                    <Image 
+                        source={require('../../assets/Back.png')} 
+                        style={{ height: 32, width: 32 }} 
+                    />
+                </TouchableOpacity>
+                <Text style={styles.headerText}>
+                    {LocationOne.name}
+                </Text>
+            </View> 
+
+            <View style={styles.imageContainer}>
+                <Image
+                    source={{ uri: LocationOne.bgImg }}
+                    style={styles.image}
                 />
-            </TouchableOpacity>
-            <Text style={styles.headerText}>
-                {LocationOne.name}
+            </View>
+            <Text>
+                {LocationOne.MainInfo}
             </Text>
-        </View> 
 
-        <View style={styles.imageContainer}>
-            <Image
-                source={{ uri: LocationOne.bgImg }}
-                style={styles.image}
-            />
+
         </View>
-        <Text>
-            {LocationOne.MainInfo}
-        </Text>
+    );
 
-        <Text className='mt-4 font-semibold text-blue-500 text-xl'>
-            Major place to visit
-        </Text>
+    const renderPlaceItem = ({ item }) => (
+        <View>
+            <View style={styles.placeContainer} className='my-4'>
+                <View className='bg-blue-200 h-auto p-4 rounded-xl'>
+                    <Image 
+                        style={styles.placeoneImg}
+                        source={require('../../assets/Place.png')}
+                        className=''
+                    />
+                </View>
+                <View className='ml-2 mt-3'>
+                    <Text className='text-xl text-blue-500 font-semibold'>
+                        {item.placeName}
+                    </Text>
+                </View>
+            </View>
+            <View>
+                <Text>
+                    Locate: {item.locate}
+                </Text>
+                <Text>
+                    {item.HowtoGo}
+                </Text>
+            </View>
+        </View>
+    );
 
+    return (
         <FlatList
-                data={LocationOne.places}
-                keyExtractor={(item) => item.placeID.toString()}
-                renderItem={({ item }) => (
-                    <View style={styles.placeContainer}>
-
-                    </View>
-                )}
-            />
-
-
-    </View>
-  )
+            data={LocationOne.places}
+            keyExtractor={(item) => item.placeID.toString()}
+            renderItem={renderPlaceItem}
+            ListHeaderComponent={renderHeader}
+            contentContainerStyle={{ paddingHorizontal: 24, paddingVertical: 16 }}
+        />
+    )
 }
 
 
@@ -87,7 +110,14 @@ const styles = StyleSheet.create({
         height: 200,
         resizeMode: 'cover',
     },
+    placeContainer: {
+        flexDirection: 'row',
+    },
+    placeoneImg: {
+        height: 28,
+        width: 28
+    }
 
 });
 
-export default OneTrip
+export default OneTrip;

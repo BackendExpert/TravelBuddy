@@ -8,15 +8,33 @@
         "places": [
             {
                 "placeID": 1,
-                "placeName": "Temple of Tooth Rilic",
-                "locate:": "Kandy City",
-                "HowtoGo": "wolk"
+                "placeName": "Temple of tooth Relic",
+                "locate": "Kandy City",
+                "HowtoGo": "drive"
             },
             {
                 "placeID": 2,
-                "placeName": "Temple of Tooth Rilic",
-                "locate:": "Kandy City",
-                "HowtoGo": "wolk"
+                "placeName": "Peradeniya Botanical Garden",
+                "locate": "5km away from City",
+                "HowtoGo": "drive"
+            },
+            {
+                "placeID": 3,
+                "placeName": "Kandy Lake",
+                "locate": "Kandy City",
+                "HowtoGo": "drive"
+            },
+            {
+                "placeID": 4,
+                "placeName": "Kandy Lake 2",
+                "locate": "Kandy City",
+                "HowtoGo": "drive"
+            },
+            {
+                "placeID": 5,
+                "placeName": "Kandy Lake 3",
+                "locate": "Kandy City",
+                "HowtoGo": "drive"
             }
         ]
     },
