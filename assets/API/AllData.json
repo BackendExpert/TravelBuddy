@@ -30,9 +30,37 @@
             {
                 "TravelID": 4,
                 "TravelFrom": "Ella",
-                "byBus": "",
+                "byBus": "(Train is Recommended)",
                 "byTrain": "From Ella Railway Station",
                 "TrainTime": ""                
+            },
+            {
+                "TravelID": 5,
+                "TravelFrom": "Anuradhapura",
+                "byBus": "",
+                "byTrain": "No Direct Trains",
+                "TrainTime": "No Direct Trains"                
+            },
+            {
+                "TravelID": 6,
+                "TravelFrom": "Jaffna",
+                "byBus": "",
+                "byTrain": "No Direct Trains",
+                "TrainTime": "No Direct Trains"                
+            },
+            {
+                "TravelID": 7,
+                "TravelFrom": "Arugam Bay Beach",
+                "byBus": "",
+                "byTrain": "No Direct Trains",
+                "TrainTime": "No Direct Trains"                
+            },
+            {
+                "TravelID": 8,
+                "TravelFrom": "Pasikuda Beach",
+                "byBus": "",
+                "byTrain": "No Direct Trains",
+                "TrainTime": "No Direct Trains"                
             }
         ],
         "places": [
