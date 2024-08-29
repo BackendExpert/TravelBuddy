@@ -10,13 +10,15 @@
                 "TravelID": 1,
                 "TravelFrom": "Colombo",
                 "byBus": "",
-                "byTrain": ""
+                "byTrain": "",
+                "TrainTime": ""
             },
             {
                 "TravelID": 2,
                 "TravelFrom": "Airport",
                 "byBus": "",
-                "byTrain": ""
+                "byTrain": "No Direct Trains from Airport",
+                "TrainTime": "No Direct Trains from Airport"
                 
             }
         ],
