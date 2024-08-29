@@ -26,6 +26,13 @@
                 "byBus": "",
                 "byTrain": "No Direct Trains From Nuwara Eliya (Go to Nanu Oya Railway Station)",
                 "TrainTime": ""                
+            },
+            {
+                "TravelID": 4,
+                "TravelFrom": "Ella",
+                "byBus": "",
+                "byTrain": "From Ella Railway Station",
+                "TrainTime": ""                
             }
         ],
         "places": [
