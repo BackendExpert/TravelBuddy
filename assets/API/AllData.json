@@ -91,12 +91,93 @@
             }
         ]
     },
+
+
+
+
+
+
+
+
+    
     {
         "id": 2,
         "name": "Nuwara Eliya",
         "Locate": "Little England",
-        "bgImg": "https://c0.wallpaperflare.com/preview/309/300/52/nuwara-eliya-sri-lanka-green-mountain.jpg"
+        "bgImg": "https://c0.wallpaperflare.com/preview/309/300/52/nuwara-eliya-sri-lanka-green-mountain.jpg",
+        "MainInfo": "Kandy is a major city in located in the Central Province of Sri Lanka.",
+        "Travel": [
+            {
+                "TravelID": 1,
+                "TravelFrom": "Colombo",
+                "byBus": "From Colombo Bus Stand Get Bus Number 1 (Red Color recommended)",
+                "byTrain": "Get Train from Cololmbo Fort, Maradhana Stations",
+                "TrainTime": ""
+            },
+            {
+                "TravelID": 2,
+                "TravelFrom": "Airport",
+                "byBus": "",
+                "byTrain": "No Direct Trains from Airport",
+                "TrainTime": "No Direct Trains from Airport"                
+            },
+            {
+                "TravelID": 3,
+                "TravelFrom": "Nuwara Eliya",
+                "byBus": "",
+                "byTrain": "No Direct Trains From Nuwara Eliya (Go to Nanu Oya Railway Station)",
+                "TrainTime": ""                
+            },
+            {
+                "TravelID": 4,
+                "TravelFrom": "Ella",
+                "byBus": "(Train is Recommended)",
+                "byTrain": "From Ella Railway Station",
+                "TrainTime": ""                
+            },
+            {
+                "TravelID": 5,
+                "TravelFrom": "Anuradhapura",
+                "byBus": "",
+                "byTrain": "No Direct Trains",
+                "TrainTime": "No Direct Trains"                
+            },
+            {
+                "TravelID": 6,
+                "TravelFrom": "Jaffna",
+                "byBus": "",
+                "byTrain": "No Direct Trains",
+                "TrainTime": "No Direct Trains"                
+            },
+            {
+                "TravelID": 7,
+                "TravelFrom": "Arugam Bay Beach",
+                "byBus": "",
+                "byTrain": "No Direct Trains",
+                "TrainTime": "No Direct Trains"                
+            },
+            {
+                "TravelID": 8,
+                "TravelFrom": "Pasikuda Beach",
+                "byBus": "",
+                "byTrain": "No Direct Trains",
+                "TrainTime": "No Direct Trains"                
+            }
+        ]
     },
+
+
+
+
+
+
+
+
+
+
+
+
+    
     {
         "id": 3,
         "name": "Ella",
