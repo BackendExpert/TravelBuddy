@@ -20,6 +20,13 @@
                 "byTrain": "No Direct Trains from Airport",
                 "TrainTime": "No Direct Trains from Airport"
                 
+            },
+            {
+                "TravelID": 3,
+                "TravelFrom": "Nuwara Eliya",
+                "byBus": "",
+                "byTrain": "No Direct Trains From Nuwara Eliya (Go to Nanu Oya Railway Station)",
+                "TrainTime": ""                
             }
         ],
         "places": [
