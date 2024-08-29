@@ -18,8 +18,7 @@
                 "TravelFrom": "Airport",
                 "byBus": "",
                 "byTrain": "No Direct Trains from Airport",
-                "TrainTime": "No Direct Trains from Airport"
-                
+                "TrainTime": "No Direct Trains from Airport"                
             },
             {
                 "TravelID": 3,
