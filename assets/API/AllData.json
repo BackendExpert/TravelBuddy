@@ -9,8 +9,8 @@
             {
                 "TravelID": 1,
                 "TravelFrom": "Colombo",
-                "byBus": "",
-                "byTrain": "",
+                "byBus": "From Colombo Bus Stand Get Bus Number 1 (Red Color recommended)",
+                "byTrain": "Get Train from Cololmbo Fort, Maradhana Stations",
                 "TrainTime": ""
             },
             {
