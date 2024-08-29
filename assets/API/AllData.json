@@ -8,11 +8,16 @@
         "Travel": [
             {
                 "TravelID": 1,
-                "TravelFrom": "Colombo"
+                "TravelFrom": "Colombo",
+                "byBus": "",
+                "byTrain": ""
             },
             {
                 "TravelID": 2,
-                "TravelFrom": "Airport"
+                "TravelFrom": "Airport",
+                "byBus": "",
+                "byTrain": ""
+                
             }
         ],
         "places": [
