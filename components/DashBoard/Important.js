@@ -41,7 +41,11 @@ const Important = ({ navigation }) => {
               <Text>Most of foreigners have to face this problem</Text>
 
               <Text className='text-red-500 font-semibold mt-4'>3. When You Traveling </Text>
-              <Text>Please use </Text>
+              <Text>Please use App like Uber (in Most Sri Lankan use PickMe - highly recommended)</Text>
+
+              <Text className='mt-2'><Text className='text-red-500 font-semibold'>Please Don't use</Text> any local Tuk Tuk, EveryTime you should use PickMe or Uber when you Traveling.</Text>
+
+              <Text className='mt-2'><Text className='text-green-500 font-semibold'>Reason to use PickMe or Uber</Text>: </Text>
 
               <Text className='text-red-500 font-semibold mt-4'>4. Getting help by Someone </Text>
               <Text> * When You getting help by Someone please be Careful. (not for all Most of Sri Lankans are very helpfull)</Text>
