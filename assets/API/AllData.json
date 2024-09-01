@@ -12,9 +12,9 @@
                 "byBus": "From Colombo Bus Stand Get Bus Number 1 (Red Color recommended)",
                 "TimePrice": "10:30 512.00",
                 "byTrain": "Get Train from Cololmbo Fort, Maradhana Stations to Kandy",
-                "TrainTime": "11, 12, 1:30",
+                "TrainTime": "https://eservices.railway.gov.lk/schedule/searchTrain.action?lang=en",
                 "TrainPrice": "220.00",
-                "googleLocation": ""
+                "googleLocation": "https://www.google.com/maps/dir/Kandy/WVM4%2BF35+Bus+stand+Colombo,+Colombo/@7.2039913,79.9165744,10z/data=!4m15!4m14!1m5!1m1!1s0x3ae366266498acd3:0x411a3818a1e03c35!2m2!1d80.6337262!2d7.2905715!1m5!1m1!1s0x3ae2593e289615bf:0x49c5a74af83c796!2m2!1d79.8552354!2d6.9336286!3e0!5i2?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"
             },
             {
                 "TravelID": 2,

@@ -76,12 +76,23 @@ const OneTrip = ({ navigation, route }) => {
                                 ) : null}
                                 {travel.TrainTime ? (
                                     <Text className='text-sm text-gray-500 my-2'>
-                                        <Text className='text-blue-500 font-semibold'>Train Timetable:</Text> {travel.TrainTime}
+                                        <Text className='text-blue-500 font-semibold'>Train Timetable:</Text> <Text onPress={() => Linking.openURL(travel.TrainTime).catch(err => console.error('An error occurred', err))}>Train Time Table</Text>
                                     </Text>
                                 ) : null}
                                 {travel.TrainPrice ? (
                                     <Text className='text-sm text-gray-500 my-2'>
                                         <Text className='text-blue-500 font-semibold'>Train Ticket Price :</Text> {travel.TrainPrice}
+                                    </Text>
+                                ) : null}
+                                {travel.googleLocation ? (
+                                    <Text className='text-sm text-gray-500 py-2'>
+                                        <Text className='text-blue-500 font-semibold'>Travel Distance :</Text>
+                                        <TouchableOpacity className='' onPress={() => openGoogleMaps(travel.googleLocation)}>
+                                            <Image 
+                                                source={require('../../assets/Search.png')}
+                                                style={{ height: 32, width: 32 }} 
+                                            />
+                                        </TouchableOpacity>
                                     </Text>
                                 ) : null}
                             </View>
