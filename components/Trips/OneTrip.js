@@ -65,9 +65,13 @@ const OneTrip = ({ navigation, route }) => {
                                     </Text>
                                 ) : null}
                                 {travel.TimePrice ? (
-                                    <Text className='text-sm text-gray-500 my-2'>
-                                        <Text className='text-blue-500 font-semibold'>Time and Tickent Price:</Text> {travel.TimePrice}
-                                    </Text>
+                                    <View>
+                                        <Text className='text-blue-500 font-semibold'>Time and Tickent Price:</Text>
+                                        <TouchableOpacity onPress={() => Linking.openURL(travel.TimePrice).catch(err => console.error('An error occurred', err))}>
+                                            <Text className='bg-blue-500 text-white my-1 py-1 text-center rounded-full font-semibold'>Bus Timetable</Text>
+                                        </TouchableOpacity>
+                                    </View>
+
                                 ) : null}
                                 {travel.byTrain ? (
                                     <Text className='text-sm text-gray-500 my-2'>
@@ -85,15 +89,15 @@ const OneTrip = ({ navigation, route }) => {
                                     </Text>
                                 ) : null}
                                 {travel.googleLocation ? (
-                                    <Text className='text-sm text-gray-500 py-2'>
-                                        <Text className='text-blue-500 font-semibold'>Travel Distance :</Text>
-                                        <TouchableOpacity className='' onPress={() => openGoogleMaps(travel.googleLocation)}>
-                                            <Image 
-                                                source={require('../../assets/Search.png')}
-                                                style={{ height: 32, width: 32 }} 
-                                            />
-                                        </TouchableOpacity>
-                                    </Text>
+                                    <View>
+                                            <Text className='text-blue-500 font-semibold'>Travel Distance :</Text>
+                                            <TouchableOpacity className='' onPress={() => openGoogleMaps(travel.googleLocation)}>
+                                                <Image 
+                                                    source={require('../../assets/Search.png')}
+                                                    style={{ height: 32, width: 32 }} 
+                                                />
+                                            </TouchableOpacity>
+                                    </View>
                                 ) : null}
                             </View>
                         ))}

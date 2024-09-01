@@ -10,30 +10,27 @@
                 "TravelID": 1,
                 "TravelFrom": "Colombo",
                 "byBus": "From Colombo Bus Stand Get Bus Number 1 (Red Color recommended)",
-                "TimePrice": "10:30 512.00",
+                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=39&to=15&start=00%3A00&end=24%3A00&bus_type=any",
                 "byTrain": "Get Train from Cololmbo Fort, Maradhana Stations to Kandy",
                 "TrainTime": "https://eservices.railway.gov.lk/schedule/searchTrain.action?lang=en",
-                "TrainPrice": "220.00",
                 "googleLocation": "https://www.google.com/maps/dir/Kandy/WVM4%2BF35+Bus+stand+Colombo,+Colombo/@7.2039913,79.9165744,10z/data=!4m15!4m14!1m5!1m1!1s0x3ae366266498acd3:0x411a3818a1e03c35!2m2!1d80.6337262!2d7.2905715!1m5!1m1!1s0x3ae2593e289615bf:0x49c5a74af83c796!2m2!1d79.8552354!2d6.9336286!3e0!5i2?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"
             },
             {
                 "TravelID": 2,
                 "TravelFrom": "Airport",
-                "byBus": "",
-                "TimePrice": "",
+                "byBus": "Recommended to go to Colombo First (There are only few buses)",
+                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=792&to=15&start=00%3A00&end=24%3A00&bus_type=any",
                 "byTrain": "",
                 "TrainTime": "",
-                "TrainPrice": "",
-                "googleLocation": ""            
+                "googleLocation": "https://www.google.com/maps/dir/Kandy/Nittambuwa/Katunayake/@7.2164016,80.0939669,11z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x3ae366266498acd3:0x411a3818a1e03c35!2m2!1d80.6337262!2d7.2905715!1m5!1m1!1s0x3ae2fd58ce1afe45:0x593380ee3025df5e!2m2!1d80.1037721!2d7.1423639!1m5!1m1!1s0x3ae2efd7f3f7894f:0xbce244fafe80bdf1!2m2!1d79.8853484!2d7.1724849!3e0?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"            
             },
             {
                 "TravelID": 3,
                 "TravelFrom": "Nuwara Eliya",
-                "byBus": "",
-                "TimePrice": "",
-                "byTrain": "No Direct Trains From Nuwara Eliya (Go to Nanu Oya Railway Station)",
+                "byBus": "There are Buses from Nuwara Eliya",
+                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=35&to=15&start=00%3A00&end=24%3A00&bus_type=any",
+                "byTrain": "No Direct Trains From Nuwara Eliya (Go to Nanu Oya Railway Station) Train is Recommended but get more time",
                 "TrainTime": "",
-                "TrainPrice": "",
                 "googleLocation": ""              
             },
             {
@@ -43,7 +40,6 @@
                 "TimePrice": "",
                 "byTrain": "From Ella Railway Station",
                 "TrainTime": "",
-                "TrainPrice": "",
                 "googleLocation": ""               
             },
             {
@@ -63,7 +59,6 @@
                 "TimePrice": "",
                 "byTrain": "by Train Come to Kurunagala via Anuradhapura and by bus to Kandy",
                 "TrainTime": "",
-                "TrainPrice": "",
                 "googleLocation": ""              
             },
             {
@@ -73,7 +68,6 @@
                 "TimePrice": "",
                 "byTrain": "",
                 "TrainTime": "",
-                "TrainPrice": "",
                 "googleLocation": ""               
             },
             {
@@ -83,7 +77,6 @@
                 "TimePrice": "",
                 "byTrain": "",
                 "TrainTime": "",
-                "TrainPrice": "",
                 "googleLocation": ""               
             }
         ],
