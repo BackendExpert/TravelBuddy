@@ -10,57 +10,73 @@
                 "TravelID": 1,
                 "TravelFrom": "Colombo",
                 "byBus": "From Colombo Bus Stand Get Bus Number 1 (Red Color recommended)",
-                "byTrain": "Get Train from Cololmbo Fort, Maradhana Stations",
-                "TrainTime": ""
+                "TimePrice": "",
+                "byTrain": "Get Train from Cololmbo Fort, Maradhana Stations to Kandy",
+                "TrainTime": "",
+                "TrainPrice": ""
             },
             {
                 "TravelID": 2,
                 "TravelFrom": "Airport",
                 "byBus": "",
-                "byTrain": "No Direct Trains from Airport",
-                "TrainTime": "No Direct Trains from Airport"                
+                "TimePrice": "",
+                "byTrain": "",
+                "TrainTime": "",
+                "TrainPrice": ""             
             },
             {
                 "TravelID": 3,
                 "TravelFrom": "Nuwara Eliya",
                 "byBus": "",
+                "TimePrice": "",
                 "byTrain": "No Direct Trains From Nuwara Eliya (Go to Nanu Oya Railway Station)",
-                "TrainTime": ""                
+                "TrainTime": "",
+                "TrainPrice": ""              
             },
             {
                 "TravelID": 4,
                 "TravelFrom": "Ella",
                 "byBus": "(Train is Recommended)",
+                "TimePrice": "",
                 "byTrain": "From Ella Railway Station",
-                "TrainTime": ""                
+                "TrainTime": "",
+                "TrainPrice": ""               
             },
             {
                 "TravelID": 5,
                 "TravelFrom": "Anuradhapura",
                 "byBus": "",
-                "byTrain": "No Direct Trains",
-                "TrainTime": "No Direct Trains"                
+                "TimePrice": "",
+                "byTrain": "",
+                "TrainTime": "",
+                "TrainPrice": ""           
             },
             {
                 "TravelID": 6,
                 "TravelFrom": "Jaffna",
                 "byBus": "",
-                "byTrain": "No Direct Trains",
-                "TrainTime": "No Direct Trains"                
+                "TimePrice": "",
+                "byTrain": "by Train Come to Kurunagala via Anuradhapura and by bus to Kandy",
+                "TrainTime": "",
+                "TrainPrice": ""              
             },
             {
                 "TravelID": 7,
                 "TravelFrom": "Arugam Bay Beach",
                 "byBus": "",
-                "byTrain": "No Direct Trains",
-                "TrainTime": "No Direct Trains"                
+                "TimePrice": "",
+                "byTrain": "",
+                "TrainTime": "",
+                "TrainPrice": ""               
             },
             {
                 "TravelID": 8,
                 "TravelFrom": "Pasikuda Beach",
                 "byBus": "",
-                "byTrain": "No Direct Trains",
-                "TrainTime": "No Direct Trains"                
+                "TimePrice": "",
+                "byTrain": "",
+                "TrainTime": "",
+                "TrainPrice": ""               
             }
         ],
         "places": [

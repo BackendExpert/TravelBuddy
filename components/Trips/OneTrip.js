@@ -49,13 +49,39 @@ const OneTrip = ({ navigation, route }) => {
                     <Text>
                         {LocationOne.MainInfo}
                     </Text>
+
+                    <View>
+                        <View>
+                            <Text className='text-blue-500 font-semibold my-4'>How to Come to {LocationOne.name}</Text>
+
+                            {LocationOne.Travel.map((travel) => (
+                            <View key={travel.TravelID} style={styles.card}>
+                                <Text className='text-lg font-semibold text-gray-700'>
+                                    From {travel.TravelFrom}:
+                                </Text>
+                                {travel.byBus ? (
+                                    <Text className='text-sm text-gray-500 my-2'>
+                                        <Text className='text-blue-500 font-semibold'>By Bus:</Text> {travel.byBus}
+                                    </Text>
+                                ) : null}
+                                {travel.byTrain ? (
+                                    <Text className='text-sm text-gray-500 my-2'>
+                                       <Text className='text-blue-500 font-semibold'>By Train:</Text> {travel.byTrain}
+                                    </Text>
+                                ) : null}
+                                {travel.TrainTimePrice ? (
+                                    <Text className='text-sm text-gray-500 my-2'>
+                                        <Text className='text-blue-500 font-semibold'>Train Time and Tickets:</Text> {travel.TrainTime}
+                                    </Text>
+                                ) : null}
+                            </View>
+                        ))}
+                        </View>
+                    </View>
                 </View>
             )}
             renderItem={({ item }) => (
                 <View>
-                    <View>
-                        <Text>How to Come to {LocationOne.name}</Text>
-                    </View>
                     <View className="my-2">
                         <View className="bg-white rounded-xl shadow-md">
                             <Image
@@ -127,7 +153,18 @@ const styles = StyleSheet.create({
     itemDown: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-    }
+    },
+    card: {
+        backgroundColor: '#fff', 
+        borderRadius: 10, 
+        padding: 15, 
+        marginBottom: 10, 
+        shadowColor: '#000', 
+        shadowOffset: { width: 0, height: 2 }, 
+        shadowOpacity: 0.1, 
+        shadowRadius: 8, 
+        elevation: 4, 
+    },
 });
 
 export default OneTrip;
