@@ -64,14 +64,24 @@ const OneTrip = ({ navigation, route }) => {
                                         <Text className='text-blue-500 font-semibold'>By Bus:</Text> {travel.byBus}
                                     </Text>
                                 ) : null}
+                                {travel.TimePrice ? (
+                                    <Text className='text-sm text-gray-500 my-2'>
+                                        <Text className='text-blue-500 font-semibold'>Time and Tickent Price:</Text> {travel.TimePrice}
+                                    </Text>
+                                ) : null}
                                 {travel.byTrain ? (
                                     <Text className='text-sm text-gray-500 my-2'>
                                        <Text className='text-blue-500 font-semibold'>By Train:</Text> {travel.byTrain}
                                     </Text>
                                 ) : null}
-                                {travel.TrainTimePrice ? (
+                                {travel.TrainTime ? (
                                     <Text className='text-sm text-gray-500 my-2'>
-                                        <Text className='text-blue-500 font-semibold'>Train Time and Tickets:</Text> {travel.TrainTime}
+                                        <Text className='text-blue-500 font-semibold'>Train Timetable:</Text> {travel.TrainTime}
+                                    </Text>
+                                ) : null}
+                                {travel.TrainPrice ? (
+                                    <Text className='text-sm text-gray-500 my-2'>
+                                        <Text className='text-blue-500 font-semibold'>Train Ticket Price :</Text> {travel.TrainPrice}
                                     </Text>
                                 ) : null}
                             </View>

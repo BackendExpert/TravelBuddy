@@ -10,10 +10,11 @@
                 "TravelID": 1,
                 "TravelFrom": "Colombo",
                 "byBus": "From Colombo Bus Stand Get Bus Number 1 (Red Color recommended)",
-                "TimePrice": "",
+                "TimePrice": "10:30 512.00",
                 "byTrain": "Get Train from Cololmbo Fort, Maradhana Stations to Kandy",
-                "TrainTime": "",
-                "TrainPrice": ""
+                "TrainTime": "11, 12, 1:30",
+                "TrainPrice": "220.00",
+                "googleLocation": ""
             },
             {
                 "TravelID": 2,
@@ -22,7 +23,8 @@
                 "TimePrice": "",
                 "byTrain": "",
                 "TrainTime": "",
-                "TrainPrice": ""             
+                "TrainPrice": "",
+                "googleLocation": ""            
             },
             {
                 "TravelID": 3,
@@ -31,7 +33,8 @@
                 "TimePrice": "",
                 "byTrain": "No Direct Trains From Nuwara Eliya (Go to Nanu Oya Railway Station)",
                 "TrainTime": "",
-                "TrainPrice": ""              
+                "TrainPrice": "",
+                "googleLocation": ""              
             },
             {
                 "TravelID": 4,
@@ -40,7 +43,8 @@
                 "TimePrice": "",
                 "byTrain": "From Ella Railway Station",
                 "TrainTime": "",
-                "TrainPrice": ""               
+                "TrainPrice": "",
+                "googleLocation": ""               
             },
             {
                 "TravelID": 5,
@@ -49,7 +53,8 @@
                 "TimePrice": "",
                 "byTrain": "",
                 "TrainTime": "",
-                "TrainPrice": ""           
+                "TrainPrice": "",
+                "googleLocation": ""           
             },
             {
                 "TravelID": 6,
@@ -58,7 +63,8 @@
                 "TimePrice": "",
                 "byTrain": "by Train Come to Kurunagala via Anuradhapura and by bus to Kandy",
                 "TrainTime": "",
-                "TrainPrice": ""              
+                "TrainPrice": "",
+                "googleLocation": ""              
             },
             {
                 "TravelID": 7,
@@ -67,7 +73,8 @@
                 "TimePrice": "",
                 "byTrain": "",
                 "TrainTime": "",
-                "TrainPrice": ""               
+                "TrainPrice": "",
+                "googleLocation": ""               
             },
             {
                 "TravelID": 8,
@@ -76,7 +83,8 @@
                 "TimePrice": "",
                 "byTrain": "",
                 "TrainTime": "",
-                "TrainPrice": ""               
+                "TrainPrice": "",
+                "googleLocation": ""               
             }
         ],
         "places": [
