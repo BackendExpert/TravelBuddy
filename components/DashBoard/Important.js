@@ -38,7 +38,7 @@ const Important = ({ navigation }) => {
                 These situations were faced by many foreigners as well as locals, and some of them were experienced by me and my friends.
             </Text>
 
-            <Text className='text-red-500 font-semibold my-2'>This is not to be affraid only for notify, You are warmly welcome to Vist and Travel in Sri Lanka</Text>
+            <Text className='text-red-500 font-semibold my-2'>This is not to be afraid only for notify, You are warmly welcome to Vist and Travel in Sri Lanka</Text>
 
             <Text className='text-red-500 font-semibold my-2'>This every incidents are still happing be Careful. </Text>
 
