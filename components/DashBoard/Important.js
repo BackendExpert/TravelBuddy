@@ -46,8 +46,8 @@ const Important = ({ navigation }) => {
 
             <View className='mt-4 mx-4'>
               <Text className='text-red-500 font-semibold'>1. At the Airport </Text>
-              <Text>Most of foreigners have to face this problem</Text>
-
+              <Text>Very be Carefully when you getting Taxi outside of the Airport, and there are no PinkMe and Uber, Tuk Tuk charge more to go to Bus Stand called "Awariyawaththa", Me as local Travel they charge 1500 Sri Lankan Rupees from me to go for not more than 2Km</Text>
+              <Text className='text-red-500 font-semibold'>Very Be Carefully and I Never recommended to you to get Tuk Tuk outside of the Airport</Text>
               <Text className='text-red-500 font-semibold mt-4'>2. Scamming </Text>
               <Text>Most of foreigners have to face this problem, Pleace go to Following Videos (all credits of videos goes to original owners)</Text>
 
