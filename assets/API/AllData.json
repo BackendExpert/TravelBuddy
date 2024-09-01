@@ -45,39 +45,21 @@
             {
                 "TravelID": 5,
                 "TravelFrom": "Anuradhapura",
-                "byBus": "",
-                "TimePrice": "",
-                "byTrain": "",
+                "byBus": "There are buses",
+                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=17&to=15&start=00%3A00&end=24%3A00&bus_type=any",
+                "byTrain": "No Direct Trains",
                 "TrainTime": "",
                 "TrainPrice": "",
-                "googleLocation": ""           
+                "googleLocation": "https://www.google.com/maps/dir/Anuradhapura/Kandy/@7.8062611,80.1118426,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3afcf4f99360e159:0xc111fe9ebc6dcf0e!2m2!1d80.4036508!2d8.3113518!1m5!1m1!1s0x3ae366266498acd3:0x411a3818a1e03c35!2m2!1d80.6337262!2d7.2905715!3e0?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"           
             },
             {
                 "TravelID": 6,
                 "TravelFrom": "Jaffna",
-                "byBus": "",
-                "TimePrice": "",
+                "byBus": "There are few Buses from Jaffna",
+                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=11&to=15&start=00%3A00&end=24%3A00&bus_type=any",
                 "byTrain": "by Train Come to Kurunagala via Anuradhapura and by bus to Kandy",
                 "TrainTime": "",
-                "googleLocation": ""              
-            },
-            {
-                "TravelID": 7,
-                "TravelFrom": "Arugam Bay Beach",
-                "byBus": "",
-                "TimePrice": "",
-                "byTrain": "",
-                "TrainTime": "",
-                "googleLocation": ""               
-            },
-            {
-                "TravelID": 8,
-                "TravelFrom": "Pasikuda Beach",
-                "byBus": "",
-                "TimePrice": "",
-                "byTrain": "",
-                "TrainTime": "",
-                "googleLocation": ""               
+                "googleLocation": "https://www.google.com/maps/dir/Jaffna/Kandy/@8.4781163,79.0241132,8z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3afe53fd7be66aa5:0xc7da0d9203baf512!2m2!1d80.0255465!2d9.6614981!1m5!1m1!1s0x3ae366266498acd3:0x411a3818a1e03c35!2m2!1d80.6337262!2d7.2905715!3e0?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"              
             }
         ],
         "places": [
