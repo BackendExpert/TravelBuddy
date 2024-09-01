@@ -1,20 +1,20 @@
-import React, { useEffect, useState } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, Image, FlatList, Linking  } from 'react-native'
+import React, { useEffect, useState } from 'react';
+import { View, Text, StyleSheet, TouchableOpacity, Image, FlatList, Linking } from 'react-native';
 
 const OneTrip = ({ navigation, route }) => {
-    const [LocationOne, SetLocationOne] = useState([])
+    const [LocationOne, SetLocationOne] = useState(null); // Changed to null to handle data loading state
 
     const { screenID } = route.params;
 
     useEffect(() => {
         const data = require('../../assets/API/AllData.json');
         
-        // Find the location with id = 5
+        // Find the location with id = screenID
         const specificLocation = data.find(place => place.id === screenID);
         
         // Set the found location to the state
         SetLocationOne(specificLocation);
-    }, [])
+    }, []);
 
     const openGoogleMaps = (link) => {
         // Open the link
@@ -25,79 +25,77 @@ const OneTrip = ({ navigation, route }) => {
         }
     };
 
-    const renderHeader = () => (
-        <View>
-            <View style={styles.header} className='rounded-full mt-4'>
-                <TouchableOpacity onPress={() => navigation.navigate('AllTrips')}>
-                    <Image 
-                        source={require('../../assets/Back.png')} 
-                        style={{ height: 32, width: 32 }} 
-                    />
-                </TouchableOpacity>
-                <Text style={styles.headerText}>
-                    {LocationOne.name}
-                </Text>
-            </View>
-            <Text>
-                {LocationOne.MainInfo}
-            </Text>
-            <View>
-                <Text className='text-blue-500 my-4 text-xl font-semibold'>How to Come to {LocationOne.name}</Text>
-            </View>
-        </View>
-    );
-
-    const renderPlaceItem = ({ item }) => (
-        <View className="my-2">
-            <View className="bg-white rounded-xl shadow-md">
-                <Image 
-                    source={{ uri: item.PlaceImage }}
-                    className='h-40'
-                    style={{
-                        borderTopRightRadius: 15, 
-                        borderTopLeftRadius: 15,
-                    }}
-                />
-                <View style={styles.itemDown} className='mx-2 pt-4 pb-2'>
-                    <View>
-                        <Text className='text-gray-500 font-semibold'>
-                            {item.placeName}
-                        </Text>
-                        <Text className='text-blue-500 '>
-                            {item.TimeRec}
-                        </Text>
-                    </View>
-                    <TouchableOpacity onPress={() => openGoogleMaps(item.onMap)}>
-                        <Image 
-                            source={require('../../assets/Search.png')} 
-                            style={{ height: 32, width: 32 }} 
-                        />
-                    </TouchableOpacity>
-
-                </View>
-                <View className='mx-2 mb-2'>
-                    <Text className='text-red-500 font-semibold'>
-                        Recommendation
-                    </Text>
-                    <Text>
-                        {item.Rocomend}
-                    </Text>
-                </View>
-            </View>
-        </View>
-    );
+    if (!LocationOne) {
+        // Show a loading state or placeholder until data is loaded
+        return <Text>Loading...</Text>;
+    }
 
     return (
         <FlatList
             data={LocationOne.places}
             keyExtractor={(item) => item.placeID.toString()}
-            renderItem={renderPlaceItem}
-            ListHeaderComponent={renderHeader}
+            ListHeaderComponent={() => (
+                <View>
+                    <View style={styles.header} className='rounded-full mt-4'>
+                        <TouchableOpacity onPress={() => navigation.navigate('AllTrips')}>
+                            <Image
+                                source={require('../../assets/Back.png')}
+                                style={{ height: 32, width: 32 }} />
+                        </TouchableOpacity>
+                        <Text style={styles.headerText}>
+                            {LocationOne.name}
+                        </Text>
+                    </View>
+                    <Text>
+                        {LocationOne.MainInfo}
+                    </Text>
+                </View>
+            )}
+            renderItem={({ item }) => (
+                <View>
+                    <View>
+                        <Text>How to Come to {LocationOne.name}</Text>
+                    </View>
+                    <View className="my-2">
+                        <View className="bg-white rounded-xl shadow-md">
+                            <Image
+                                source={{ uri: item.PlaceImage }}
+                                className='h-40'
+                                style={{
+                                    borderTopRightRadius: 15,
+                                    borderTopLeftRadius: 15,
+                                }} />
+                            <View style={styles.itemDown} className='mx-2 pt-4 pb-2'>
+                                <View>
+                                    <Text className='text-gray-500 font-semibold'>
+                                        {item.placeName}
+                                    </Text>
+                                    <Text className='text-blue-500 '>
+                                        {item.TimeRec}
+                                    </Text>
+                                </View>
+                                <TouchableOpacity onPress={() => openGoogleMaps(item.onMap)}>
+                                    <Image
+                                        source={require('../../assets/Search.png')}
+                                        style={{ height: 32, width: 32 }} />
+                                </TouchableOpacity>
+                            </View>
+                            <View className='mx-2 mb-2'>
+                                <Text className='text-red-500 font-semibold'>
+                                    Recommendation
+                                </Text>
+                                <Text>
+                                    {item.Rocomend}
+                                </Text>
+                            </View>
+                        </View>
+                    </View>
+                </View>
+            )}
             contentContainerStyle={{ paddingHorizontal: 24, paddingVertical: 16 }}
         />
-    )
-}
-
+    );
+};
 
 const styles = StyleSheet.create({
     header: {
