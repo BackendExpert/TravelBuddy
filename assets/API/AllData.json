@@ -29,17 +29,17 @@
                 "TravelFrom": "Nuwara Eliya",
                 "byBus": "There are Buses from Nuwara Eliya",
                 "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=35&to=15&start=00%3A00&end=24%3A00&bus_type=any",
-                "byTrain": "No Direct Trains From Nuwara Eliya (Go to Nanu Oya Railway Station) Train is Recommended but get more time",
+                "byTrain": "No Direct Trains From Nuwara Eliya (Go to Nanu Oya Railway Station) Train is Recommended but get more time, Buses are there or Use PickMe (Dont use local Tuk Tuk)",
                 "TrainTime": "",
-                "googleLocation": ""              
+                "googleLocation": "https://www.google.com/maps/dir/Kandy/XQC8%2BRR5+Bus+Stand+-+Nuwara+Eliya,+Nuwara+Eliya+22200/@7.1311775,80.5610435,11z/am=t/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3ae366266498acd3:0x411a3818a1e03c35!2m2!1d80.6337262!2d7.2905715!1m5!1m1!1s0x3ae3813be32047cf:0x968ada72ff53ceb8!2m2!1d80.7671107!2d6.9720059!3e0?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"              
             },
             {
                 "TravelID": 4,
                 "TravelFrom": "Ella",
-                "byBus": "(Train is Recommended)",
+                "byBus": "Kandy to Ella is the Most Beautiful Train Ride in Sri Lanka (Train is Recommended)",
                 "TimePrice": "",
-                "byTrain": "From Ella Railway Station",
-                "TrainTime": "",
+                "byTrain": "There are few Trains",
+                "TrainTime": "https://eservices.railway.gov.lk/schedule/searchTrain.action?lang=en",
                 "googleLocation": ""               
             },
             {
