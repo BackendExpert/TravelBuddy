@@ -37,19 +37,13 @@ const OneTrip = ({ navigation, route }) => {
                 <Text style={styles.headerText}>
                     {LocationOne.name}
                 </Text>
-            </View> 
-
-            <View style={styles.imageContainer}>
-                <Image
-                    source={{ uri: LocationOne.bgImg }}
-                    style={styles.image}
-                />
             </View>
             <Text>
                 {LocationOne.MainInfo}
             </Text>
-
-
+            <View>
+                <Text className='text-blue-500 my-4 text-xl font-semibold'>How to Come to {LocationOne.name}</Text>
+            </View>
         </View>
     );
 
