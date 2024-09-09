@@ -78,6 +78,13 @@ const Important = ({ navigation }) => {
                   </Text>
               </View>
 
+              <Text className='text-red-500 font-semibold mt-4'>4. When You Rent a Car (without Driver) </Text>
+              <View>
+                <Text className='font-bold '>Mostly Be Careful When you Rent a vehicle without Driver</Text>
+
+                <Text>Sometime the owner of the vehicle rental company use another person to crash the vehicle you rented. then the owner charge extra money from you about the damaged that happed</Text>
+              </View>
+
 
             </View>
         </ScrollView>
