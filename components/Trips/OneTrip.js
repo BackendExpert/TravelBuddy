@@ -108,7 +108,8 @@ const OneTrip = ({ navigation, route }) => {
                 <View>
 
                     <View className="my-2">
-                        <View className="bg-white rounded-xl shadow-md">
+                        <View className="bg-white rounded-xl shadow-md"
+                        >
                             <Image
                                 source={{ uri: item.PlaceImage }}
                                 className='h-40'
