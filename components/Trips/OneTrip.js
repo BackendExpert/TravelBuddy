@@ -101,7 +101,7 @@ const OneTrip = ({ navigation, route }) => {
                         ))}
                         </View>
                     </View>
-                    <Text className='my-4 text-blue-500 font-semibold'>Places to visit in Kandy</Text>
+                    <Text className='my-4 text-blue-500 font-semibold'>Places to visit in {LocationOne.name}</Text>
                 </View>
             )}
             renderItem={({ item }) => (
