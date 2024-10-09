@@ -132,7 +132,7 @@ const Dashboard = ({ navigation }) => {
         </View>
       </TouchableOpacity>
 
-      <TouchableOpacity onPress={() => navigation.navigate('OneTrip', {screenID: 0})}>
+      <TouchableOpacity>
         <View style={styles.imageContainer} className='mt-20'>
           <Image
             source={require('../../assets/Sigiriya.jpg')}

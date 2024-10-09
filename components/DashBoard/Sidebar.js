@@ -35,7 +35,7 @@ const Sidebar = ({ isVisible, onClose }) => {
         </TouchableOpacity>
       </View> 
 
-      <Text style={styles.sidebarText}>Sidebar Content</Text>
+      <Text style={styles.sidebarText}>H</Text>
     </Animated.View>
   );
 };
