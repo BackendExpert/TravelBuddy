@@ -106,7 +106,7 @@
                 "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=39&to=15&start=00%3A00&end=24%3A00&bus_type=any",
                 "byTrain": "Get Train from Cololmbo Fort, Maradhana Stations to Kandy",
                 "TrainTime": "https://eservices.railway.gov.lk/schedule/searchTrain.action?lang=en",
-                "googleLocation": "https://www.google.com/maps/place/Kandy/@7.1728424,80.4916923,11z/data=!4m23!1m16!4m15!1m6!1m2!1s0x3ae366266498acd3:0x411a3818a1e03c35!2sKandy!2m2!1d80.6337262!2d7.2905715!1m6!1m2!1s0x3ae380434e1554c7:0x291608404c937d9c!2sNuwara+Eliya!2m2!1d80.7891068!2d6.9497166!3e0!3m5!1s0x3ae366266498acd3:0x411a3818a1e03c35!8m2!3d7.2905715!4d80.6337262!16zL20vMDFzZzRf?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D"            
+                "googleLocation": "https://www.google.com/maps/place/Kandy/@7.1728424,80.4916923,11z/data=!4m23!1m16!4m15!1m6!1m2!1s0x3ae366266498acd3:0x411a3818a1e03c35!2sKandy!2m2!1d80.6337262!2d7.2905715!1m6!1m2!1s0x3ae380434e1554c7:0x291608404c937d9c!2sNuwara+Eliya!2m2!1d80.7891068!2d6.9497166!3e0!3m5!1s0x3ae366266498acd3:0x411a3818a1e03c35!8m2!3d7.2905715!4d80.6337262!16zL20vMDFzZzRf?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3Da"            
             }
         ],
 
@@ -150,46 +150,10 @@
         ]
     },
 
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "id": 3,
         "name": "Ella",
         "Locate": "on Kandy-Badulla Railway",
         "bgImg": "https://c0.wallpaperflare.com/preview/665/67/799/ella-kandy-sri-lanka-asia.jpg"
-    },
-    {
-        "id": 4,
-        "name": "Pasikuda Beach",
-        "Locate": "35 kilometers northwest of Batticaloa",
-        "bgImg": "https://c0.wallpaperflare.com/preview/152/775/759/sri-lanka-kalkudah-pasikuda-rd-sea.jpg"
-    },
-    {
-        "id": 5,
-        "name": "Arugam Bay Beach",
-        "Locate": "Ampara",
-        "bgImg": "https://c4.wallpaperflare.com/wallpaper/635/462/366/sri-lanka-nature-beach-waves-wallpaper-preview.jpg"
-    },
-    {
-        "id": 6,
-        "name": "Jaffna",
-        "Locate": "Northern Sri Lanka",
-        "bgImg": "https://c1.wallpaperflare.com/preview/451/940/978/temple-hinduism-religion-architecture.jpg"
-    },
-    {
-        "id": 7,
-        "name": "Anuradhapura",
-        "Locate": "North Central of Sri Lanka",
-        "bgImg": "https://c1.wallpaperflare.com/preview/645/468/30/sri-lanka-anuradhapura-temple-buddhism.jpg"
-    }
+    }    
 ]
