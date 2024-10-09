@@ -135,16 +135,16 @@ const Dashboard = ({ navigation }) => {
       <TouchableOpacity>
         <View style={styles.imageContainer} className='mt-20'>
           <Image
-            source={require('../../assets/NanuOya.JPG')}
+            source={require('../../assets/NanuOya.jpg')}
             style={styles.image}
           />
         </View>
         <View className='mt-[-115px]'>
             <Text className='text-white text-center text-xl font-semibold'>
-                Sigiriya
+                Nuwara Eliya
             </Text>
             <Text className='text-center text-white'>
-                Dambulla
+              Little England 
             </Text>
         </View>
       </TouchableOpacity>
