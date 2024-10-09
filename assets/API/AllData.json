@@ -23,43 +23,6 @@
                 "byTrain": "",
                 "TrainTime": "",
                 "googleLocation": "https://www.google.com/maps/dir/Kandy/Nittambuwa/Katunayake/@7.2164016,80.0939669,11z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x3ae366266498acd3:0x411a3818a1e03c35!2m2!1d80.6337262!2d7.2905715!1m5!1m1!1s0x3ae2fd58ce1afe45:0x593380ee3025df5e!2m2!1d80.1037721!2d7.1423639!1m5!1m1!1s0x3ae2efd7f3f7894f:0xbce244fafe80bdf1!2m2!1d79.8853484!2d7.1724849!3e0?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"            
-            },
-            {
-                "TravelID": 3,
-                "TravelFrom": "Nuwara Eliya",
-                "byBus": "There are Buses from Nuwara Eliya",
-                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=35&to=15&start=00%3A00&end=24%3A00&bus_type=any",
-                "byTrain": "No Direct Trains From Nuwara Eliya (Go to Nanu Oya Railway Station) Train is Recommended but get more time, Buses are there or Use PickMe (Dont use local Tuk Tuk)",
-                "TrainTime": "",
-                "googleLocation": "https://www.google.com/maps/dir/Kandy/XQC8%2BRR5+Bus+Stand+-+Nuwara+Eliya,+Nuwara+Eliya+22200/@7.1311775,80.5610435,11z/am=t/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3ae366266498acd3:0x411a3818a1e03c35!2m2!1d80.6337262!2d7.2905715!1m5!1m1!1s0x3ae3813be32047cf:0x968ada72ff53ceb8!2m2!1d80.7671107!2d6.9720059!3e0?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"              
-            },
-            {
-                "TravelID": 4,
-                "TravelFrom": "Ella",
-                "byBus": "Kandy to Ella is the Most Beautiful Train Ride in Sri Lanka (Train is Recommended)",
-                "TimePrice": "",
-                "byTrain": "There are few Trains",
-                "TrainTime": "https://eservices.railway.gov.lk/schedule/searchTrain.action?lang=en",
-                "googleLocation": ""               
-            },
-            {
-                "TravelID": 5,
-                "TravelFrom": "Anuradhapura",
-                "byBus": "There are buses",
-                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=17&to=15&start=00%3A00&end=24%3A00&bus_type=any",
-                "byTrain": "No Direct Trains",
-                "TrainTime": "",
-                "TrainPrice": "",
-                "googleLocation": "https://www.google.com/maps/dir/Anuradhapura/Kandy/@7.8062611,80.1118426,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3afcf4f99360e159:0xc111fe9ebc6dcf0e!2m2!1d80.4036508!2d8.3113518!1m5!1m1!1s0x3ae366266498acd3:0x411a3818a1e03c35!2m2!1d80.6337262!2d7.2905715!3e0?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"           
-            },
-            {
-                "TravelID": 6,
-                "TravelFrom": "Jaffna",
-                "byBus": "There are few Buses from Jaffna",
-                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=11&to=15&start=00%3A00&end=24%3A00&bus_type=any",
-                "byTrain": "by Train Come to Kurunagala via Anuradhapura and by bus to Kandy",
-                "TrainTime": "",
-                "googleLocation": "https://www.google.com/maps/dir/Jaffna/Kandy/@8.4781163,79.0241132,8z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3afe53fd7be66aa5:0xc7da0d9203baf512!2m2!1d80.0255465!2d9.6614981!1m5!1m1!1s0x3ae366266498acd3:0x411a3818a1e03c35!2m2!1d80.6337262!2d7.2905715!3e0?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"              
             }
         ],
         "places": [
@@ -116,68 +79,74 @@
         "name": "Nuwara Eliya",
         "Locate": "Little England",
         "bgImg": "https://c0.wallpaperflare.com/preview/309/300/52/nuwara-eliya-sri-lanka-green-mountain.jpg",
-        "MainInfo": "Kandy is a major city in located in the Central Province of Sri Lanka.",
+        "MainInfo": "Nuwara Eliya one of Beautiful cities in located in the Central Province of Sri Lanka.",
         "Travel": [
             {
                 "TravelID": 1,
                 "TravelFrom": "Colombo",
-                "byBus": "",
-                "byTrain": "Get Train from Cololmbo Fort, Maradhana Stations via Kandy and Peradeniya",
-                "TrainTime": ""
+                "byBus": "From Colombo Bus Stand (Red Color recommended)",
+                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=39&to=2142&start=00%3A00&end=24%3A00&bus_type=any",
+                "byTrain": "Get Train from Cololmbo Fort, Maradhana Stations to Nanu Oya (Via Kandy and Peradeniya)",
+                "TrainTime": "https://eservices.railway.gov.lk/schedule/searchTrain.action?lang=en",
+                "googleLocation": "https://www.google.com/maps/place/Kandy/@7.2033354,79.6807666,9z/data=!4m30!1m23!4m22!1m6!1m2!1s0x3ae253d10f7a7003:0x320b2e4d32d3838d!2sColombo!2m2!1d79.861243!2d6.9270786!1m6!1m2!1s0x3ae366266498acd3:0x411a3818a1e03c35!2sKandy!2m2!1d80.6337262!2d7.2905715!1m6!1m2!1s0x3ae380434e1554c7:0x291608404c937d9c!2sNuwara+Eliya!2m2!1d80.7891068!2d6.9497166!3e0!3m5!1s0x3ae366266498acd3:0x411a3818a1e03c35!8m2!3d7.2905715!4d80.6337262!16zL20vMDFzZzRf?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D"
             },
             {
-                "TravelID": 2,
+                "TravelID": 1,
                 "TravelFrom": "Airport",
-                "byBus": "",
+                "byBus": "Recommended to go to Colombo First (There are only few buses)",
+                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=39&to=15&start=00%3A00&end=24%3A00&bus_type=any",
                 "byTrain": "No Direct Trains from Airport",
-                "TrainTime": "No Direct Trains from Airport"                
+                "TrainTime": "https://eservices.railway.gov.lk/schedule/searchTrain.action?lang=en",
+                "googleLocation": "https://www.google.com/maps/place/Kandy/@7.2033354,79.6807666,9z/data=!4m30!1m23!4m22!1m6!1m2!1s0x3ae253d10f7a7003:0x320b2e4d32d3838d!2sColombo!2m2!1d79.861243!2d6.9270786!1m6!1m2!1s0x3ae366266498acd3:0x411a3818a1e03c35!2sKandy!2m2!1d80.6337262!2d7.2905715!1m6!1m2!1s0x3ae380434e1554c7:0x291608404c937d9c!2sNuwara+Eliya!2m2!1d80.7891068!2d6.9497166!3e0!3m5!1s0x3ae366266498acd3:0x411a3818a1e03c35!8m2!3d7.2905715!4d80.6337262!16zL20vMDFzZzRf?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D"             
             },
             {
-                "TravelID": 3,
+                "TravelID": 1,
                 "TravelFrom": "Kandy",
-                "byBus": "",
-                "byTrain": "Get Train Kandy to NanuOya",
-                "TrainTime": ""                
-            },
-            {
-                "TravelID": 4,
-                "TravelFrom": "Ella",
-                "byBus": "(Train is Recommended)",
-                "byTrain": "From Ella Railway Station",
-                "TrainTime": ""                
-            },
-            {
-                "TravelID": 5,
-                "TravelFrom": "Anuradhapura",
-                "byBus": "First Come to Kandy, then Get Bus or Train from Kandy",
-                "byTrain": "No Direct Trains",
-                "TrainTime": "No Direct Trains"                
-            },
-            {
-                "TravelID": 6,
-                "TravelFrom": "Jaffna",
-                "byBus": "First Come to Kandy, then Get Bus or Train from Kandy",
-                "byTrain": "No Direct Trains",
-                "TrainTime": "No Direct Trains"                
-            },
-            {
-                "TravelID": 7,
-                "TravelFrom": "Arugam Bay Beach",
-                "byBus": "",
-                "byTrain": "No Direct Trains",
-                "TrainTime": "No Direct Trains"                
-            },
-            {
-                "TravelID": 8,
-                "TravelFrom": "Pasikuda Beach",
-                "byBus": "",
-                "byTrain": "No Direct Trains",
-                "TrainTime": "No Direct Trains"                
+                "byBus": "From Kandy there are many Buses (Train is recommended)",
+                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=39&to=15&start=00%3A00&end=24%3A00&bus_type=any",
+                "byTrain": "Get Train from Cololmbo Fort, Maradhana Stations to Kandy",
+                "TrainTime": "https://eservices.railway.gov.lk/schedule/searchTrain.action?lang=en",
+                "googleLocation": "https://www.google.com/maps/place/Kandy/@7.1728424,80.4916923,11z/data=!4m23!1m16!4m15!1m6!1m2!1s0x3ae366266498acd3:0x411a3818a1e03c35!2sKandy!2m2!1d80.6337262!2d7.2905715!1m6!1m2!1s0x3ae380434e1554c7:0x291608404c937d9c!2sNuwara+Eliya!2m2!1d80.7891068!2d6.9497166!3e0!3m5!1s0x3ae366266498acd3:0x411a3818a1e03c35!8m2!3d7.2905715!4d80.6337262!16zL20vMDFzZzRf?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D"            
             }
         ],
 
         "places": [
-
+            {
+                "placeID": 1,
+                "PlaceImage": "https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg",
+                "placeName": "Temple of tooth Relic",
+                "HowtoGo": "can walk",
+                "onMap": "https://www.google.com/maps/dir/Kandy+Railway+Station,+Main+Building,+William+Gopallawa+Mawatha,+Kandy/Maligawa+Bus+Stand,+DS+Senanayake+Veediya,+Kandy/@7.292126,80.6329009,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3ae36882893f0a53:0x96578f84bde6f1b7!2m2!1d80.6323582!2d7.2895636!1m5!1m1!1s0x3ae3662c0b6f6bfd:0x830dc9bfe5520ebd!2m2!1d80.6385935!2d7.2932845!3e2?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D",
+                "Rocomend": "Don't use any Taxi, Just walk not more than 1KM",
+                "TimeRec": "5.30 am - 7.00pm"                
+            },
+            {
+                "placeID": 2,
+                "placeName": "Kandy Lake",
+                "PlaceImage": "https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg",
+                "HowtoGo": "drive",
+                "onMap": "https://www.google.com/maps/dir/Kandy+Railway+Station,+Main+Building,+William+Gopallawa+Mawatha,+Kandy/Maligawa+Bus+Stand,+DS+Senanayake+Veediya,+Kandy/@7.292126,80.6329009,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3ae36882893f0a53:0x96578f84bde6f1b7!2m2!1d80.6323582!2d7.2895636!1m5!1m1!1s0x3ae3662c0b6f6bfd:0x830dc9bfe5520ebd!2m2!1d80.6385935!2d7.2932845!3e2?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D",
+                "Rocomend": "Just Near by Temple of tooth Relic",
+                "TimeRec": "5.30 am - 7.00pm"    
+            },
+            {
+                "placeID": 3,
+                "placeName": "ViewPoint Kandy",
+                "PlaceImage": "https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg",
+                "HowtoGo": "can walk",
+                "onMap": "https://www.google.com/maps/dir/Maligawa/7JQQ%2BHWM+Kandy+view+point,+Rajapihilla+Mawatha,+Kandy/@7.2908476,80.6373009,17z/data=!4m14!4m13!1m5!1m1!1s0x3ae3662c0b6f6bfd:0x830dc9bfe5520ebd!2m2!1d80.6385935!2d7.2932845!1m5!1m1!1s0x3ae3675983104e0b:0xbfa71deb39a78f5a!2m2!1d80.6398003!2d7.2889587!3e2?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
+                "Rocomend": "Don't use any Taxi, Just walk near by kandy lake",
+                "TimeRec": "recommended to go at 9.00 am" 
+            },
+            {
+                "placeID": 4,
+                "placeName": "Peradeniya Botanical Garden",
+                "PlaceImage": "https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg",
+                "HowtoGo": "drive",
+                "onMap": "https://www.google.com/maps/dir/Torrington+Bus+Station,+Sri+Wickrama+Rajasinghe+Mawatha,+Kandy+20000/''/@7.2732914,80.5945493,14.75z/data=!4m14!4m13!1m5!1m1!1s0x3ae3662bd46208d3:0xc2263e94d26e1293!2m2!1d80.6353741!2d7.292418!1m5!1m1!1s0x3ae368da68aac005:0x2da6d022096b2e83!2m2!1d80.5959915!2d7.2655358!3e0?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D",
+                "Rocomend": "Don't use Tuk Tuk, use PickMe, Uber or Local Bus (red color bus recommended), Tuk Tuk charge very high cost",
+                "TimeRec": "recommended to go at 9.00 am" 
+            }
         ]
     },
 
