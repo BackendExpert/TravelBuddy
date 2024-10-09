@@ -66,13 +66,6 @@
         ]
     },
 
-
-
-
-
-
-
-
     
     {
         "id": 2,
@@ -91,7 +84,7 @@
                 "googleLocation": "https://www.google.com/maps/place/Kandy/@7.2033354,79.6807666,9z/data=!4m30!1m23!4m22!1m6!1m2!1s0x3ae253d10f7a7003:0x320b2e4d32d3838d!2sColombo!2m2!1d79.861243!2d6.9270786!1m6!1m2!1s0x3ae366266498acd3:0x411a3818a1e03c35!2sKandy!2m2!1d80.6337262!2d7.2905715!1m6!1m2!1s0x3ae380434e1554c7:0x291608404c937d9c!2sNuwara+Eliya!2m2!1d80.7891068!2d6.9497166!3e0!3m5!1s0x3ae366266498acd3:0x411a3818a1e03c35!8m2!3d7.2905715!4d80.6337262!16zL20vMDFzZzRf?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D"
             },
             {
-                "TravelID": 1,
+                "TravelID": 2,
                 "TravelFrom": "Airport",
                 "byBus": "Recommended to go to Colombo First (There are only few buses)",
                 "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=39&to=15&start=00%3A00&end=24%3A00&bus_type=any",
@@ -100,7 +93,7 @@
                 "googleLocation": "https://www.google.com/maps/place/Kandy/@7.2033354,79.6807666,9z/data=!4m30!1m23!4m22!1m6!1m2!1s0x3ae253d10f7a7003:0x320b2e4d32d3838d!2sColombo!2m2!1d79.861243!2d6.9270786!1m6!1m2!1s0x3ae366266498acd3:0x411a3818a1e03c35!2sKandy!2m2!1d80.6337262!2d7.2905715!1m6!1m2!1s0x3ae380434e1554c7:0x291608404c937d9c!2sNuwara+Eliya!2m2!1d80.7891068!2d6.9497166!3e0!3m5!1s0x3ae366266498acd3:0x411a3818a1e03c35!8m2!3d7.2905715!4d80.6337262!16zL20vMDFzZzRf?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D"             
             },
             {
-                "TravelID": 1,
+                "TravelID": 3,
                 "TravelFrom": "Kandy",
                 "byBus": "From Kandy there are many Buses (Train is recommended)",
                 "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=39&to=15&start=00%3A00&end=24%3A00&bus_type=any",

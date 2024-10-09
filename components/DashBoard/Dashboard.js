@@ -135,7 +135,7 @@ const Dashboard = ({ navigation }) => {
       <TouchableOpacity>
         <View style={styles.imageContainer} className='mt-20'>
           <Image
-            source={require('../../assets/Sigiriya.jpg')}
+            source={require('../../assets/NanuOya.JPG')}
             style={styles.image}
           />
         </View>
