@@ -71,7 +71,7 @@
         "id": 2,
         "name": "Nuwara Eliya",
         "Locate": "Little England",
-        "bgImg": "https://c0.wallpaperflare.com/preview/309/300/52/nuwara-eliya-sri-lanka-green-mountain.jpg",
+        "bgImg": "https://drive.google.com/uc?export=view&id=1bpablI9KNEyzykTtXzozvhDdBjR_XGkL",
         "MainInfo": "Nuwara Eliya one of Beautiful cities in located in the Central Province of Sri Lanka.",
         "Travel": [
             {
@@ -106,39 +106,21 @@
         "places": [
             {
                 "placeID": 1,
-                "PlaceImage": "https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg",
-                "placeName": "Temple of tooth Relic",
+                "PlaceImage": "https://drive.google.com/uc?export=view&id=1bpablI9KNEyzykTtXzozvhDdBjR_XGkL",
+                "placeName": "Victoria Park - Nuwara Eliya",
                 "HowtoGo": "can walk",
-                "onMap": "https://www.google.com/maps/dir/Kandy+Railway+Station,+Main+Building,+William+Gopallawa+Mawatha,+Kandy/Maligawa+Bus+Stand,+DS+Senanayake+Veediya,+Kandy/@7.292126,80.6329009,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3ae36882893f0a53:0x96578f84bde6f1b7!2m2!1d80.6323582!2d7.2895636!1m5!1m1!1s0x3ae3662c0b6f6bfd:0x830dc9bfe5520ebd!2m2!1d80.6385935!2d7.2932845!3e2?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D",
-                "Rocomend": "Don't use any Taxi, Just walk not more than 1KM",
-                "TimeRec": "5.30 am - 7.00pm"                
+                "onMap": "https://www.google.com/maps/dir/Bus+Stand+-+Nuwara+Eliya,+Nuwara+Eliya/XQ99%2BJ7G+Victoria+Park+-+Nuwaraeliya,+PBC+Hwy,+Nuwara+Eliya+22200/@6.9704689,80.7662561,18z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3ae3813be32047cf:0x968ada72ff53ceb8!2m2!1d80.7671107!2d6.9720059!1m5!1m1!1s0x3ae3805288fa714b:0xbb44afbf5324004c!2m2!1d80.7682045!2d6.9690563!3e2?entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D",
+                "Rocomend": "Just Near by Bus stand",
+                "TimeRec": "7.00 am - 7.00pm"    
             },
             {
                 "placeID": 2,
-                "placeName": "Kandy Lake",
-                "PlaceImage": "https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg",
-                "HowtoGo": "drive",
-                "onMap": "https://www.google.com/maps/dir/Kandy+Railway+Station,+Main+Building,+William+Gopallawa+Mawatha,+Kandy/Maligawa+Bus+Stand,+DS+Senanayake+Veediya,+Kandy/@7.292126,80.6329009,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3ae36882893f0a53:0x96578f84bde6f1b7!2m2!1d80.6323582!2d7.2895636!1m5!1m1!1s0x3ae3662c0b6f6bfd:0x830dc9bfe5520ebd!2m2!1d80.6385935!2d7.2932845!3e2?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D",
-                "Rocomend": "Just Near by Temple of tooth Relic",
-                "TimeRec": "5.30 am - 7.00pm"    
-            },
-            {
-                "placeID": 3,
-                "placeName": "ViewPoint Kandy",
-                "PlaceImage": "https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg",
+                "PlaceImage": "https://drive.google.com/uc?export=view&id=1bpablI9KNEyzykTtXzozvhDdBjR_XGkL",
+                "placeName": "Lake Gregory",
                 "HowtoGo": "can walk",
-                "onMap": "https://www.google.com/maps/dir/Maligawa/7JQQ%2BHWM+Kandy+view+point,+Rajapihilla+Mawatha,+Kandy/@7.2908476,80.6373009,17z/data=!4m14!4m13!1m5!1m1!1s0x3ae3662c0b6f6bfd:0x830dc9bfe5520ebd!2m2!1d80.6385935!2d7.2932845!1m5!1m1!1s0x3ae3675983104e0b:0xbfa71deb39a78f5a!2m2!1d80.6398003!2d7.2889587!3e2?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D",
-                "Rocomend": "Don't use any Taxi, Just walk near by kandy lake",
-                "TimeRec": "recommended to go at 9.00 am" 
-            },
-            {
-                "placeID": 4,
-                "placeName": "Peradeniya Botanical Garden",
-                "PlaceImage": "https://cdn.pixabay.com/photo/2013/11/03/11/58/temple-204803_1280.jpg",
-                "HowtoGo": "drive",
-                "onMap": "https://www.google.com/maps/dir/Torrington+Bus+Station,+Sri+Wickrama+Rajasinghe+Mawatha,+Kandy+20000/''/@7.2732914,80.5945493,14.75z/data=!4m14!4m13!1m5!1m1!1s0x3ae3662bd46208d3:0xc2263e94d26e1293!2m2!1d80.6353741!2d7.292418!1m5!1m1!1s0x3ae368da68aac005:0x2da6d022096b2e83!2m2!1d80.5959915!2d7.2655358!3e0?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyMy4wIKXMDSoASAFQAw%3D%3D",
-                "Rocomend": "Don't use Tuk Tuk, use PickMe, Uber or Local Bus (red color bus recommended), Tuk Tuk charge very high cost",
-                "TimeRec": "recommended to go at 9.00 am" 
+                "onMap": "https://www.google.com/maps/dir/Bus+Stand+-+Nuwara+Eliya,+Nuwara+Eliya/Lake+Gregory,+Nuwara+Eliya/@6.9619391,80.7721899,15z/data=!4m14!4m13!1m5!1m1!1s0x3ae3813be32047cf:0x968ada72ff53ceb8!2m2!1d80.7671107!2d6.9720059!1m5!1m1!1s0x3ae380f70b675859:0x3362d6f28dc32189!2m2!1d80.7783333!2d6.9566667!3e2?entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D",
+                "Rocomend": "2.6KM from Bus Stand",
+                "TimeRec": "8:00 AM - 5:00 PM"    
             }
         ]
     },
@@ -146,7 +128,28 @@
     {
         "id": 3,
         "name": "Ella",
-        "Locate": "on Kandy-Badulla Railway",
-        "bgImg": "https://c0.wallpaperflare.com/preview/665/67/799/ella-kandy-sri-lanka-asia.jpg"
+        "Locate": "on Kandy to Baddulla Railway",
+        "bgImg": "https://drive.google.com/uc?export=view&id=1LJJKn-gEqmhI0k_ygmCLWjGPlsJ0Z5be",
+        "MainInfo": "Most Beautiful City located in Sri Lanka.",
+        "Travel": [
+            {
+                "TravelID": 1,
+                "TravelFrom": "Colombo",
+                "byBus": "Train is recommended",
+                "TimePrice": "",
+                "byTrain": "Get Train from Cololmbo Fort, Maradhana Stations to Ella Most Beautiful Train Ride in Sri Lanka (Via Kandy and Peradeniya and NanuOya)",
+                "TrainTime": "https://eservices.railway.gov.lk/schedule/searchTrain.action?lang=en",
+                "googleLocation": "https://www.google.com/maps/dir/Colombo/Ella/@6.5051238,80.191142,10z/data=!4m15!4m14!1m5!1m1!1s0x3ae253d10f7a7003:0x320b2e4d32d3838d!2m2!1d79.861243!2d6.9270786!1m5!1m1!1s0x3ae465955bc09a25:0xbdfadcdadec487fb!2m2!1d81.046553!2d6.8666988!3e0!5i1?entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D"
+            },
+            {
+                "TravelID": 3,
+                "TravelFrom": "Kandy",
+                "byBus": "Train is recommended",
+                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=39&to=15&start=00%3A00&end=24%3A00&bus_type=any",
+                "byTrain": "Get Train from Kandy Stations to ELla Via Nanu Oya",
+                "TrainTime": "https://eservices.railway.gov.lk/schedule/searchTrain.action?lang=en",
+                "googleLocation": "https://www.google.com/maps/place/Kandy/@7.1728424,80.4916923,11z/data=!4m23!1m16!4m15!1m6!1m2!1s0x3ae366266498acd3:0x411a3818a1e03c35!2sKandy!2m2!1d80.6337262!2d7.2905715!1m6!1m2!1s0x3ae380434e1554c7:0x291608404c937d9c!2sNuwara+Eliya!2m2!1d80.7891068!2d6.9497166!3e0!3m5!1s0x3ae366266498acd3:0x411a3818a1e03c35!8m2!3d7.2905715!4d80.6337262!16zL20vMDFzZzRf?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3Da"            
+            }
+        ]
     }    
 ]

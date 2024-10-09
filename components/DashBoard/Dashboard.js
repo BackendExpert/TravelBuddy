@@ -118,7 +118,7 @@ const Dashboard = ({ navigation }) => {
       <TouchableOpacity>
         <View style={styles.imageContainer}>
           <Image
-            source={require('../../assets/9Arch.jpg')}
+            source={{ uri: 'https://drive.google.com/uc?export=view&id=1LJJKn-gEqmhI0k_ygmCLWjGPlsJ0Z5be' }}
             style={styles.image}
           />
         </View>
@@ -135,7 +135,7 @@ const Dashboard = ({ navigation }) => {
       <TouchableOpacity>
         <View style={styles.imageContainer} className='mt-20'>
           <Image
-            source={require('../../assets/NanuOya.jpg')}
+            source={require('../../assets/NuwaraElliya.jpg')}
             style={styles.image}
           />
         </View>

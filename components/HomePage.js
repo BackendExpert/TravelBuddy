@@ -34,7 +34,7 @@ const HomePage = ({ navigation }) => {
     return (
         <View style={styles.container} onLayout={onLayoutRootView}>
             <Image
-                source={require('../assets/Beach.jpg')} 
+                source={{ uri: 'https://drive.google.com/uc?export=view&id=17eCjE7EFo6WvpMx0QJj8eA6G2I7f1ssS' }} 
                 className='h-full w-screen'
             />
             <Text className='mt-[-250px] font-semibold text-white text-xl'>
