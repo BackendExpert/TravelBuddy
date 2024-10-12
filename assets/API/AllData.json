@@ -144,11 +144,11 @@
             {
                 "TravelID": 3,
                 "TravelFrom": "Kandy",
-                "byBus": "Train is recommended",
-                "TimePrice": "https://sltb.eseat.lk/bus/schedule/search?from=39&to=15&start=00%3A00&end=24%3A00&bus_type=any",
+                "byBus": "Train is Highly recommended",
+                "TimePrice": "",
                 "byTrain": "Get Train from Kandy Stations to ELla Via Nanu Oya",
                 "TrainTime": "https://eservices.railway.gov.lk/schedule/searchTrain.action?lang=en",
-                "googleLocation": "https://www.google.com/maps/place/Kandy/@7.1728424,80.4916923,11z/data=!4m23!1m16!4m15!1m6!1m2!1s0x3ae366266498acd3:0x411a3818a1e03c35!2sKandy!2m2!1d80.6337262!2d7.2905715!1m6!1m2!1s0x3ae380434e1554c7:0x291608404c937d9c!2sNuwara+Eliya!2m2!1d80.7891068!2d6.9497166!3e0!3m5!1s0x3ae366266498acd3:0x411a3818a1e03c35!8m2!3d7.2905715!4d80.6337262!16zL20vMDFzZzRf?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3Da"            
+                "googleLocation": "https://www.google.com/maps/place/Kandy/@7.0961606,80.5469924,11z/data=!4m23!1m16!4m15!1m6!1m2!1s0x3ae366266498acd3:0x411a3818a1e03c35!2sKandy!2m2!1d80.6337262!2d7.2905715!1m6!1m2!1s0x3ae465955bc09a25:0xbdfadcdadec487fb!2sElla!2m2!1d81.046553!2d6.8666988!3e0!3m5!1s0x3ae366266498acd3:0x411a3818a1e03c35!8m2!3d7.2905715!4d80.6337262!16zL20vMDFzZzRf?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"            
             }
         ]
     }    
