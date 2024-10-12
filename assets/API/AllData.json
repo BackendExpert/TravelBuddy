@@ -150,6 +150,26 @@
                 "TrainTime": "https://eservices.railway.gov.lk/schedule/searchTrain.action?lang=en",
                 "googleLocation": "https://www.google.com/maps/place/Kandy/@7.0961606,80.5469924,11z/data=!4m23!1m16!4m15!1m6!1m2!1s0x3ae366266498acd3:0x411a3818a1e03c35!2sKandy!2m2!1d80.6337262!2d7.2905715!1m6!1m2!1s0x3ae465955bc09a25:0xbdfadcdadec487fb!2sElla!2m2!1d81.046553!2d6.8666988!3e0!3m5!1s0x3ae366266498acd3:0x411a3818a1e03c35!8m2!3d7.2905715!4d80.6337262!16zL20vMDFzZzRf?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"            
             }
+        ],
+        "places": [
+            {
+                "placeID": 1,
+                "PlaceImage": "https://drive.google.com/uc?export=view&id=1LJJKn-gEqmhI0k_ygmCLWjGPlsJ0Z5be",
+                "placeName": "Little Adam's Peak",
+                "HowtoGo": "can walk",
+                "onMap": "https://www.google.com/maps/dir/Railway+Station+-+Ella,+Wellawaya-Ella-Kumbalwela+Highway,+Ella/Little+Adam's+Peak/@6.8705292,81.0499009,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3ae46538a20c4d11:0x2ebaa1c951831da!2m2!1d81.0470817!2d6.8756976!1m5!1m1!1s0x3ae465c4a6a9d73b:0x493f44762ee4d216!2m2!1d81.063078!2d6.8651291!3e0?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D",
+                "Rocomend": "If you can walk just walk not more than 3.5Km. if You need Taxi use PickMe or Ubar Dont use Local Thuk Thuk",
+                "TimeRec": "5 AM – 7:45 PM"    
+            },
+            {
+                "placeID": 2,
+                "PlaceImage": "https://drive.google.com/uc?export=view&id=1LJJKn-gEqmhI0k_ygmCLWjGPlsJ0Z5be",
+                "placeName": "Nine Arches Bridge",
+                "HowtoGo": "can walk",
+                "onMap": "https://www.google.com/maps/dir/Railway+Station+-+Ella,+Wellawaya-Ella-Kumbalwela+Highway,+Ella/Nine+Arches+Bridge,+Ella/@6.8753182,81.0502655,16z/data=!4m14!4m13!1m5!1m1!1s0x3ae46538a20c4d11:0x2ebaa1c951831da!2m2!1d81.0470817!2d6.8756976!1m5!1m1!1s0x3ae4657f9f847f4d:0x5650d88f725ded08!2m2!1d81.0608736!2d6.8767378!3e2?authuser=0&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D",
+                "Rocomend": "You can walk, I recommended you to go to Little Adam's Peak and Nine Arches Bridge at the same trip, Because these 2 in same way",
+                "TimeRec": "Best in sunrise"    
+            }
         ]
     }    
 ]
