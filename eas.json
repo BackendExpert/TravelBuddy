@@ -1,16 +1,9 @@
 {
-  "cli": {
-    "version": ">= 10.2.4"
-  },
   "build": {
-    "preview": {
+    "production": {
       "android": {
         "buildType": "apk"
-      },
-      "distribution": "internal"
+      }
     }
-  },
-  "submit": {
-    "production": {}
   }
 }
